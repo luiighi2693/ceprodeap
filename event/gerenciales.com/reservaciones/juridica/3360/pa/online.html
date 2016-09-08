@@ -1,0 +1,304 @@
+<div id="ajax_loading" style="display:none;text-align:center"><img src="../../../../img/icons/ajax_load.gif"  alt="Cargando" />    <br> Guardando Su Reservación...
+</div>
+
+
+    <form action="http://gerenciales.com/reservaciones/reservar_juridica/3360/pa" id="reserv_jur" method="post">    <input type="hidden" value="online" id="modalidad_evento"/>
+    <h3>Reservación - Jurídica</h3>
+
+    <p><a href="../../../../eventos/ver/3360/sipe-linea-planilla-calculo-horas-extras-liquidaciones-sisso-online-panama.html" id="volver_reservacion"><i class="fa fa-chevron-left"></i> Volver</a></p>
+
+    <p class="alert alert-warning">
+        Recuerde que la información suministrada aqui será utilizada en la elaboración de su
+        factura.<br>
+        Recuerde que si reserva y no cancela en la fecha acordada tres veces, su RUC quedará
+        bloqueado para futuras reservaciones.
+    </p>
+
+    
+    <!-- evento con varios horarios, no borrar! -->
+        <!-- fin evento con varias presentaciones -->
+
+
+    <!-- Datos Empresa -->
+    <fieldset>
+
+
+        <legend>Datos de la Empresa</legend>
+        
+        
+        <p><label for="empresa">Empresa *</label><input type="text" name="empresa" value="Agro Altagracia, S.A." class="ui-widget-content ui-corner-all" required /></p>
+
+
+        <p><label for="ruc">RUC *</label><input type="text" name="ruc" value="" class="ui-widget-content ui-corner-all" required />DV<input type="text" name="ruc_dv" value="" class="ui-widget-content ui-corner-all" size="3" required /></p>
+
+        <p><label for="tlf_fijo">Teléfono Fijo *</label><input type="text" name="tlf_fijo" value="" class="ui-widget-content ui-corner-all" required /></p>
+
+        <p>
+            <label for="tlf_cel">Teléfono Celular*</label><input type="text" name="tlf_cel" value="" class="ui-widget-content ui-corner-all" maxlength="8" required />            <br>(Este número se usará unicamente para notificarle sobre el status su reserva)
+        </p>
+
+        <p>
+            <span style="font-size:13px;font-weight: 900">Dirección para la Facturación * :</span>
+            <br>
+            <textarea name="direccion_fiscal" cols="50" rows="4" class="ui-widget-content ui-corner-all"  required>Calle chapaiguana sur nro S/N Sector el Charco. Altagracia de Orituco. Edo. Guárico</textarea>        </p>
+
+        <p>
+            <input type="checkbox" name="gubernamental" value="1"  /> Esta
+            Reservación es para una Institución Gubernamental<br>
+
+            <span><input type="checkbox" name="orden_compra" value="1"  /> Emitiré Orden de Compra. </span><br>
+
+            <!--  Pagaré con Cheque -->
+
+        <div id="opciones_cheque" class="prefix_1" style="display:none">
+            <input type="radio" name="op_cheque" value="enviar"  /> Enviaré el cheque a la dirección indicada.<br>
+            <input type="radio" name="op_cheque" value="dia_evento"  /> Entregaré el cheque el dia del evento. (Se
+            facturará al precio de "Día del Evento")
+        </div>
+
+        </p>
+
+        
+    </fieldset>
+
+    <!-- Persona Encargada -->
+    <fieldset>
+
+        <legend>Persona encargada de realizar la reservación</legend>
+
+        <p><label for="nombre_0">Nombre*</label><input type="text" name="nombre_0" value="Maryoris" class="nombres ui-widget-content ui-corner-all" required /></p>
+
+        <p><label for="apellido_0">Apellido*</label><input type="text" name="apellido_0" value="Guédez" class="nombres ui-widget-content ui-corner-all" required /></p>
+
+        <p><label for="cedula_0">Cédula ó Pasaporte*</label><select name="pre_cedula_0" class="ui-widget-content ui-corner-all"id="pre_cedula_0"><option value="N">N - Nativo</option><option value="P">P - Pasaporte</option><option value="E">E - Extranjero</option></select><input type="text" name="cedula_0" value="14056265" class="ui-widget-content ui-corner-all" required /></p>
+
+        <p><label for="cargo">Cargo</label><input type="text" name="cargo" value="" class="ui-widget-content ui-corner-all" /></p>
+
+        <p class="confirm-email"><label for="email">Email *</label><input type="email" name="email" value="" class="ui-widget-content ui-corner-all confirm-email" required="required" autocomplete="off"  />
+            <span>Las direcciones de correo deben coincidir</span>
+        </p>
+
+        <p class="confirm-email"><label for="confirmar_email">Confirmar Email *</label><input type="email" name="confirmar_email" value="" class="ui-widget-content ui-corner-all confirm-email" required="required" autocomplete="off"  />
+            <span>Las direcciones de correo deben coincidir</span>
+        </p>
+    </fieldset>
+
+
+    <!-- ASISTENTES -->
+    <fieldset>
+
+        <legend>Asistentes Al Evento</legend>
+        <p>
+            <b>Colocar la cédula de los asistentes sin caracteres especiales (,.-#). Solo
+                números.</b>
+        </p>
+
+        <p>
+            La persona encargada de realizar la reservación asistirá al evento?<br>
+            <input type="radio" name="p_encargada_asiste"
+                   value="si"  />Si
+            <input type="radio" name="p_encargada_asiste"
+                   value="no"  />No
+        </p>
+
+        <p>
+            Número Total de Asistentes         <th>Online</th>:
+        <img class="ajax_load"  src="../../../../img/icons/ajax_load.gif"  style="display:none"  alt="Cargando" />        <br>
+
+        
+        <div id="contenedor_n_asistentes" style="text-align: center">
+            <span><input class="botones_asistentes" type="button" name="n_menos" id="n_menos"
+                         value="&lt;"/></span>
+            <span><input type="text" class="numero" name="n_asistentes" maxlength="2" value="1"
+                         style="width:20px; "/></span>
+            <span><input class="botones_asistentes" type="button" name="n_mas" id="n_mas"
+                         value="&gt;"/></span>
+        </div>
+
+        </p>
+
+
+        <table id="lista_asistentes">
+
+            <thead>
+            <tr>
+                <th> Nº</th>
+                <th width=113>Nombre</th>
+                <th width=113>Apellido</th>
+                <th width=154>Cédula</th>
+                <th width=113>Celular</th>
+                <th width=113>Correo</th>
+            </tr>
+            </thead>
+
+            <tbody>
+
+            </tbody>
+            <script id="template_fila_asistentes" type="text/template">
+                <tr>
+                    <td class="contador">{{contador}}</td>
+                    <td><input type="text" name="nombres[{{index}}]" value=""
+                               class="nombres ui-widget-content ui-corner-all" required></td>
+                    <td><input type="text" name="apellidos[{{index}}]" value=""
+                               class="nombres ui-widget-content ui-corner-all" required></td>
+                    <td>
+                        <select name="pre_cedula[{{index}}]" class="ui-widget-content ui-corner-all"id="pre_cedula[{{index}}]"><option value="N">N - Nativo</option><option value="P">P - Pasaporte</option><option value="E">E - Extranjero</option></select>                        <input type="number" name="cedulas[{{index}}]" value=""
+                               class="cedulas ui-widget-content ui-corner-all" required>
+                    </td>
+                    <td><input type="number" name="celulares[{{index}}]" value=""
+                               class="cedulas ui-widget-content ui-corner-all" required></td>
+                    <td><input type="email" name="correos[{{index}}]" value=""
+                               class="ui-widget-content ui-corner-all" required></td>
+
+                </tr>
+            </script>
+        </table>
+
+    </fieldset>
+
+    <!-- Modalidad de reserva de diplomados -->
+    
+    <!--facturacion online panama-->
+            <fieldset>
+            <legend>Facturación</legend>
+            <!--Facturacion Online-->
+
+            <div style="position:relative; height:230px">
+                <div class="inclu" style="width:35%; float:left">
+                    <p>
+                        El encargado de realizar la reservación sera la persona de contacto ?<br>
+                        <input type="radio" name="p_encargada_asiste_contacto"
+                               value="si"  />Si
+                        <input type="radio" name="p_encargada_asiste_contacto"
+                               value="no"  />No
+                    </p>
+
+                    <p><label for="nombre_apellido_2">Nombre y Apellido *</label><input type="text" name="nombre_apellido_2" value="" class="nombres ui-widget-content ui-corner-all" required /></p>
+
+                    <p><label for="cedula_2">Cédula *</label><input type="text" name="cedula_2" value="" class="ui-widget-content ui-corner-all cedulas" required /></p>
+
+                    <p><label for="telefono_2">Telefono  *</label><input type="text" name="telefono_2" value="" class="nombres ui-widget-content ui-corner-all" required /></p>
+
+                </div>
+
+                <div class="inclu" style="width:35%; float:left">
+                    <p>
+                        Es la misma direccion fiscal?<br>
+                        <input type="radio" name="copia_direccion_fiscal"
+                               value="si"  />Si
+                        <input type="radio" name="copia_direccion_fiscal"
+                               value="no"  />No
+                    </p>
+                    <textarea name="direccion_contacto"
+                              style="width: 218px; height: 200px;resize:none;" required></textarea>
+                </div>
+            </div>
+        </fieldset>
+        <!--facturacion online panama-->
+
+
+    <br>
+
+    <p>
+        Comentarios ó Información Adicional: <br>
+        <textarea name="info_adicional" cols="50" rows="4" class="ui-widget-content ui-corner-all" ></textarea>    </p>
+
+
+    <p>¿A través de que medio se enteró de este evento?&nbsp;&nbsp;
+        <input type="text" name="medio_publicidad" value="" class="ui-widget-content ui-corner-all" />    </p>
+
+    <textarea disabled rows="16" class="form-control">
+-------------------------------------
+Términos y Condiciones de Reservación
+-------------------------------------
+1. Condiciones generales
+Los participantes deberán tener al menos 12 años.
+2. Participación en el curso y conﬁrmación de la inscripción
+2.1. Una vez seleccionado el curso y luego de realizada la reservación a  través del portal Gerenciales.com, el participante recibirá una conﬁrmación por parte de Grupo Soluciones Gerenciales a su email, posteriormente recibirá copia de la factura y el número de localizador de su inscripción. El contrato se hará efectivo en el momento de recibir dicha información.
+3. Precios y condiciones de pago
+3.1. Cada curso tendrá el valor reflejado en la página web
+3.2. Existen varias modalidades de pago de contado y a crédito el cual tiene diferente precio
+3.3. En caso de no asistir al evento seleccionado tendrá el mismo como abono durante los próximos 3 meses para poder utilizarlo en otros eventos. Si el cliente solicita el reembolso del dinero será descontado el 20% de valor de la factura, por gastos administrativos (esta condición solo aplica si el evento fue desarrollado en la fecha programada).
+3.4. En caso de que el evento no se pueda desarrollar por causa de fuerza mayor se le preguntará al usuario si desea mantener el dinero como abono para próximos cursos o por el contrario le será devuelto la cantidad transferida.
+4. Cambios en la reserva
+Los cambios en la reserva de los servicios (por ejemplo, un cambio en la fecha del curso) estarán permitidos en casos excepcionales y siempre tras la consulta previa con la administración. El primer cambio en la reserva será gratuito y cada cambio adicional con llevará un importe administrativo.
+5. Cancelación
+5.1. El participante podrá pagar la reserva del curso según las siguientes condiciones:
+El participante podrá presentar un justiﬁcante, Membresía u otro documento que acredite la aplicación de una tarifa más económica en casos concretos. (para cupones y promociones)
+5.2. Cualquier pago deberá ser reportado en la web gerenciales.com o en su defecto a los correos indicados al momento de hacer la reservación.
+6. Asignación del número de participantes por evento
+6.2. En todos los cursos, el número de participantes por clase dependerá del evento a realizar.
+8. Obligaciones del participante
+8.1. El participante será el único responsable de su seguro de salud, de accidente, de responsabilidad y de propiedad. Grupo Soluciones Gerenciales S,A no asume ninguna responsabilidad legal al respecto.
+8.2. El participante estará obligado a cumplir con las normas del evento y con el reglamento interno vigente en Grupo Soluciones Gerenciales S.A
+9. Alcance de la responsabilidad de Grupo Soluciones Gerenciales S.A
+9.1. Grupo Soluciones Gerenciales S.Ase hará responsable por daños y perjuicios originados por cualquier motivo legal únicamente en el caso de negligencia grave o dolo.
+9.2. Quedan excluidos otros derechos contractuales y delictuales más amplios del participante
+10. Fuerza mayor
+Ni Grupo Soluciones Gerenciales S.A ni ninguno de sus empleados se harán responsables ante el incumplimiento de sus obligaciones contractuales o ante los daños debidos a causas de fuerza mayor, en especial por causa de incendios, inundaciones, temporales u otras fuerzas de la naturaleza, por explosiones, huelgas, situaciones de guerra, disturbios, hurtos u otros motivos que escapen a la responsabilidad o a la inﬂuencia de Grupo Soluciones Gerenciales S.A
+11. Protección de datos
+Grupo Soluciones Gerenciales S.A almacena, procesa y utiliza datos personales del participante con la ﬁnalidad del cumplimiento de un contrato ﬁrmado con el mismo o con la ﬁnalidad de cumplir con una declaración de conformidad en régimen de protección de datos que le haya sido impuesta.
+12. Derecho aplicable
+El derecho aplicable a estas condiciones de participación y a todas las relaciones jurídicas entre Grupo Soluciones Gerenciales S.A y el participante será el derecho en la República de Panamá
+13. Cláusula de salvaguardia
+En caso de quedar sin efecto parte o alguna fórmula de estas condiciones, las demás partes no se verán afectadas ni en su contenido ni en su validez. La condición considerada nula será sustituida por otra de vigencia legal que se le asemeje al máximo en cuanto a contenido y repercusión económica.
+
+---------------------------
+Política de Privacidad Web
+---------------------------
+
+Mediante el presente texto se informa a los usuarios de esta web de las condiciones generales que rigen para su utilización y consulta. Éstas suponen por parte de los usuarios la aceptación plena de las condiciones expuestas en este documento. El visitante se compromete a utilizar esta web y los servicios que se ofrecen de conformidad con la ley, estas condiciones generales, así como con la moral y buenas costumbres generalmente aceptadas y el orden público. El usuario se obliga a indemnizar a Grupo Soluciones Gerenciales S.A por cualquier daño o perjuicio que pudiera ocasionar por el uso de esta web, infringiendo la legalidad vigente.
+También se informa en este documento de las condiciones particulares que rigen para la contratación de determinados servicios que se ofrecen en esta web.
+Grupo Soluciones Gerenciales S.A se reserva el derecho de modificar las condiciones legales que se exponen en este documento sin previo aviso.
+Propiedad legal y copyright. Limitación de responsabilidad
+Esta web y su contenido es propiedad de Grupo Soluciones Gerenciales S.A, entidad editora y propietaria de la misma. Salvo autorización previa, expresa y por escrito se prohíbe cualquier transmisión, cesión, venta, alquiler y/o exposición pública de esta web o cualquier parte de la misma.
+Grupo Soluciones Gerenciales S.A se reserva el derecho de modificar el contenido de la web sin previo aviso y sin ningún tipo de limitación. La entidad declina cualquier responsabilidad por los eventuales daños y perjuicios que puedan ocasionarse por la falta de disponibilidad y/o continuidad de esta web y de los servicios que se ofrecen en ella.
+Las personas o empresas que remitan cualquier tipo de información a Grupo Soluciones Gerenciales S.A se comprometen a que la misma sea veraz y que no vulnere cualquier derecho de terceros ni la legalidad vigente. Si ud. cree que cualquier contenido y/o información de esta web vulnera un derecho legítimo o la legalidad vigente no dude en contactar con nosotros:
+
+Entidad: Grupo Soluciones Gerenciales S.A
+Dirección Postal: Calle 50 y 64 E San Francisco PH Plaza Varibe ofc. 205
+Teléfono: 507 398 50 84 o  398 50 95
+Fax: 398 50 95
+E-mail: mercadeo@gerenciales.com
+Las condiciones generales expuestas en este documento se rigen por la ley de la república de Panamá.
+Política de protección de datos personales
+Grupo Soluciones Gerenciales S.A situada en Panamá Ciudad de Panamá, y titular del dominio www.gerenciales.com, es titular también de la base de datos generada con los datos de carácter personal suministrados por los usuarios.
+El usuario autoriza el tratamiento automatizado de los datos personales suministrados, necesarios para la prestación de los servicios ofrecidos www.gerenciales.com, respetando siempre la legislación Panameña sobre protección de los datos. Esta información es recibida por Grupo Soluciones Gerenciales S.A y nunca es vendida, cedida o alquilada a otras empresas o entidades.
+Ocasionalmente, Grupo Soluciones Gerenciales S.A puede enviar un e-mail notificando mejoras o novedades que se produzcan en esta web o en alguna otra web de la entidad, asi como tanto de servicios propios que ofrezcamos. En cualquier momento pueden darse de baja enviando un email a remover@gerenciales.com o automáticamente de nuestros boletines.
+La información personal recabada de los usuarios registrados es almacenada en bases de datos propiedad de Grupo Soluciones Gerenciales S.A, que asume las medidas de índole técnica, organizativa y de seguridad que garanticen la confidencialidad e integridad de la información de acuerdo con la ley actual de Protección de Datos de Carácter Personal, y demás legislación aplicable.
+El usuario responderá, en cualquier caso, de la veracidad de los datos facilitados, reservándose (Grupo Soluciones Gerenciales S.A) el derecho a excluir de los servicios registrados a todo usuario que haya facilitado datos falsos, sin prejuicio de las demás acciones que procedan en Derecho.
+Cualquier usuario registrado puede en cualquier momento ejercer el derecho a acceder, rectificar y, en su caso, cancelar sus datos de carácter personal suministrados a Grupo Soluciones Gerenciales S.A, mediante comunicación escrita dirigida a la entidad
+Att:
+Grupo Soluciones Gerenciales S.A
+Calle 50 y 64 E San francisco Ph Plaza Varibe ofc. 205. Panamá Ciudad de Panamá.
+
+----------------------------------------------------
+Términos y Condiciones de para la Reservación Online
+----------------------------------------------------
+Antes de reservar usted debe probar el DEMO ONLINE, de tal modo que si puede visualizarlo no habrá ningún problema al momento de la conferencia online.
+En tal caso que no pueda ver el DEMO ONLINE no realice la reservación y contáctenos.
+</textarea>
+
+<label for="acepto_term_y_cond" style="width:100%">
+	<input type="checkbox" value="si_acepto" name="acepto_term_y_cond" id="acepto_term_y_cond" required="required">
+	He Leido y Acepto los Términos, Condiciones y Política de Privacidad de Grupo Soluciones Gerenciales S.A
+</label>
+
+    <p><input type="submit" value="Reservar" class="boton btn btn-success"/></p>
+
+    </form>
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+    _atrk_opts = {atrk_acct: "o3awj1a8gN002R", domain: "gerenciales.com", dynamic: true};
+    (function () {
+        var as = document.createElement('script');
+        as.type = 'text/javascript';
+        as.async = true;
+        as.src = "../../../../../d31qbv1cthcecs.cloudfront.net/atrk.js";
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(as, s);
+    })();
+</script>
+<noscript><img src="../../../../../d5nxst8fruw4z.cloudfront.net/atrkf66c.gif?account=o3awj1a8gN002R"
+               style="display:none" height="1" width="1" alt=""/></noscript>
+<!-- End Alexa Certify Javascript -->  

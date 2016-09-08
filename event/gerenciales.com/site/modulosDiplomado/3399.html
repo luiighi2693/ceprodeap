@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from gerenciales.com/site/modulosDiplomado/3399 by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 28 Aug 2016 02:57:15 GMT -->
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="refresh" content="600">
+
+    <title>Soluciones Gerenciales</title>
+
+    <link rel="stylesheet" href="../../css/960/reset.css">
+    <link rel="stylesheet" href="../../css/960/text.css">
+    <link rel="stylesheet" href="../../css/960/960.css">
+    <link rel="stylesheet" href="../../css/popups.css">
+    <link rel="stylesheet" href="../../css/tabs.css">
+
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <script type="text/javascript" src="../../js/lib/bootstrap.min.js"></script>
+
+    <style>
+        div.tab_container {
+            width: 98%
+        }
+
+        ul.tabs {
+            width: 98.2%
+        }
+        table caption {
+            font: bold 16px verdana, helvetica, sans-serif;
+        }
+    </style>
+
+    <script src="../../../ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    <script>
+        $(function () {
+
+            //alert('epa');
+            /*  * TABS (pestaas) Ver_evento  */
+            $(".tab_content").hide(); //Hide all content
+            $("ul.tabs li:first").addClass("active").show(); //Activate first tab
+            $(".tab_content:first").show(); //Show first tab content
+            //On Click Event
+            $("ul.tabs li").click(function () {
+                $("ul.tabs li").removeClass("active"); //Remove any "active" class
+                $(this).addClass("active"); //Add "active" class to selected tab
+                $(".tab_content").hide(); //Hide all tab content
+                var activeTab = $(this).find("a").attr("href"); //Find the href attribute value to identify the active tab + content
+                $(activeTab).fadeIn(); //Fade in the active ID content
+                return false;
+            });
+        });
+    </script>
+
+</head>
+
+<body style="padding: 10px; background:#f9f9f9">
+
+<table class="table">
+    <caption>Módulos Presenciales</caption>
+    <thead>
+    <tr class="success">
+        <th>Módulo</th>
+        <th>Fecha</th>
+        <th>Horario</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            <th>Gestión Estratégica Y Balanced ScoreCard</th>
+            <th>Martes 13 de Septiembre de 2016</th>
+            <th>8 horas académicas ( 9:00 am a 4:00 pm)</th>
+        </tr>
+
+    
+        <tr>
+            <th>indicadores De Gestión Y Procesos De Negocio</th>
+            <th>Lunes 19 de Septiembre de 2016</th>
+            <th>8 horas académicas ( 9:00 am a 4:00 pm)</th>
+        </tr>
+
+    
+        <tr>
+            <th>Gestión De Finanzas en Negocios</th>
+            <th>Lunes 26 de Septiembre de 2016</th>
+            <th>8 horas académicas ( 9:00 am a 4:00 pm)</th>
+        </tr>
+
+    
+        <tr>
+            <th>Gestión Tributaria De Empresas</th>
+            <th>Lunes 03 de Octubre de 2016</th>
+            <th>8 horas académicas ( 9:00 am a 4:00 pm)</th>
+        </tr>
+
+    
+        <tr>
+            <th>Cómo Enfrentar La Crisis De Negocio</th>
+            <th>Jueves 13 de Octubre de 2016</th>
+            <th>8 horas académicas ( 9:00 am a 4:00 pm)</th>
+        </tr>
+
+        </tbody>
+</table>
+
+<table class="table">
+    <caption>Módulos Online</caption>
+    <thead>
+    <tr class="success">
+        <th>Módulo</th>
+        <th>Fecha</th>
+        <th>Horario</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            <th>Gestión Estratégica Y Balanced ScoreCard  ONLINE</th>
+            <th>Martes 13 de Septiembre de 2016</th>
+            <th>8 horas académicas ( 9:00 am a 4:00 pm)</th>
+        </tr>
+
+    
+        <tr>
+            <th>indicadores De Gestión Y Procesos De Negocio  ONLINE</th>
+            <th>Lunes 19 de Septiembre de 2016</th>
+            <th>8 horas académicas ( 9:00 am a 4:00 pm)</th>
+        </tr>
+
+    
+        <tr>
+            <th>Gestión De Finanzas en Negocios  ONLINE</th>
+            <th>Lunes 26 de Septiembre de 2016</th>
+            <th>8 horas académicas ( 9:00 am a 4:00 pm)</th>
+        </tr>
+
+    
+        <tr>
+            <th>Gestión Tributaria De Empresas  ONLINE </th>
+            <th>Lunes 03 de Octubre de 2016</th>
+            <th>8 horas académicas ( 9:00 am a 4:00 pm)</th>
+        </tr>
+
+    
+        <tr>
+            <th>Cómo Enfrentar La Crisis De Negocio  ONLINE</th>
+            <th>Jueves 13 de Octubre de 2016</th>
+            <th>8 horas académicas ( 9:00 am a 4:00 pm)</th>
+        </tr>
+
+        </tbody>
+</table>
+</body>
+
+<!-- Mirrored from gerenciales.com/site/modulosDiplomado/3399 by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 28 Aug 2016 02:57:16 GMT -->
+</html>

@@ -1,0 +1,93 @@
+/* TABS EVENTOS (Titulo, Contenido, Informacion, etc...) */
+ul.tabs{float:left;list-style:none;height:32px;border-bottom:1px solid #AAA;border-left:1px solid #AAA;width:100%;margin:0;padding:0}ul.tabs li{float:left;height:31px;line-height:31px;border:1px solid #AAA;border-left:none;overflow:hidden;position:relative;background:url(../img/bgr/evento_tab.png) repeat-x 0 -32px;margin:0 0 -1px;padding:0}ul.tabs li a{text-decoration:none;color:#000;display:block;font-size:1.2em;border:1px solid #fff;outline:none;padding:0 20px}ul.tabs li a:hover{background:url(../img/bgr/evento_tab.png) repeat-x 0 0}html ul.tabs li.active,html ul.tabs li.active a:hover{background:#fff;border-bottom:1px solid #fff}.tab_container{border:1px solid #AAA;border-top:none;overflow:hidden;clear:both;float:left;width:698px;background:#fff;margin-bottom:12px}.tab_content{font-size:1.2em;padding:14px}
+
+/* EVENTO OVERVIEW */
+div#evento-overview{margin-bottom:20px}
+/*div#evento-overview h1{font-size:19px;margin-bottom:12px;text-shadow:#CCC 1px 1px 2px}*/
+div#evento-overview h2{font-size:18px;color:#777;font-style:italic;margin-bottom:4px}
+div#evento-overview .grid_5 img{ margin-top:2px; box-shadow:#CCC 0px 0px 5px; border-radius:7px}
+/* Contenido Tabs */
+div.seccion{border-bottom:1px dotted #DDD;margin-bottom:14px;padding:0 14px}
+div.seccion h3{margin-bottom: 1em !important;font-size: 16px;font-weight: bold;}
+/*div.seccion h3 img{margin-right:22px;margin-bottom:-5px;float:left}*/
+div.seccion h3 i{margin-right:22px;margin-bottom:-5px;float:left}
+div.seccion p{margin:0 0 14px 64px;font-size:14px}
+div#ev_contenido div div {margin:10px 0}
+div#ev_contenido div li {margin:10px 0}
+div#ev_contenido div p {margin:10px 0}
+.opciones_reserva {
+    display: block;
+    margin: 0.5em;
+    padding: 0.5em 1em 0.5em;
+    min-height: 6em;
+    text-align: left;
+    font: normal 1.3em/2em helvetica, verdana, sans-serif;
+    vertical-align: middle;
+    white-space: normal;
+}
+.opciones_reserva i {
+    font-size: 3em;
+    margin-right: 1em;
+    vertical-align: middle;
+    display: inline-block;
+}
+.opciones_reserva p {
+    vertical-align: middle;
+    display: inline-block;
+}
+/* Menu Principal RESERVACIONES */
+/*
+.opciones_reserva {padding: 20px 0 20px 90px;margin:0 0 20px 100px;display: block}
+a#natural.opciones_reserva{background:url('../img/icons/pers_nat.jpg') no-repeat}
+a#juridica.opciones_reserva{background:url('../img/icons/pers_jur.jpg') no-repeat}
+a#reserva_incompany.opciones_reserva{background:url('../img/icons/pers_incompany.jpg') no-repeat}
+a#pa_gubernamentales.opciones_reserva{background:url('../img/icons/pa_gubernamentales.jpg') no-repeat}
+*/
+.nota_importante{font-size:12px;padding:8px;border:1px dotted orange; background: #FFFFCC; border-radius:4px; -moz-border-radius:4px}
+table#lista_asistentes tbody input{width:110px;margin-left:3px}
+/*FORMS RESERVACIONES Y PAGO*/
+#reservacion p, #notificar_pago p{margin: 10px 0}
+#reservacion label, #notificar_pago label {width:170px; float:left; font-size:13px; font-weight:900; margin-top: 6px}
+#reservacion fieldset,
+fieldset#check_factura_dep_tra_ve {padding:12px; border: 1px solid #CCC; margin:10px 0}
+#reservacion fieldset legend,
+#notificar_pago fieldset legend{padding:2px 14px; color:#353535; font-weight:900}
+#reservacion .ui-widget-content.ui-corner-all,
+#notificar_pago .ui-widget-content.ui-corner-all,
+#check_factura_dep_tra_ve .ui-widget-content.ui-corner-all {padding:5px}
+dl dt{font-weight: bold}
+/* Otros Eventos en el Area */
+/*#otros_event_area {clear:both; margin:20px 10px; padding:12px; border-top:1px dotted #ccc}
+#otros_event_area h5{text-transform:uppercase; font-size:12px; color:#333; letter-spacing: 0.14em}
+#otros_event_area li span{font-style: italic; color:gray}*/
+/* Nueva paestaÃ±a pagos (pa/ve) */
+div#datos_deposito{margin:20px 0}
+div#metodos_pago {
+    text-align: center;
+}
+div#metodos_pago a{/* height:80px; */}
+div#metodos_pago a img{/* float: left; */}
+#captcha{clear:both;}
+input[name^="cedulas"]{
+    width: 75px !important;
+}
+#lista_asistentes label.error{
+    font-size: 10px;
+}
+#lista_asistentes select, #pre_cedula_0, #rif_letra{
+    width:47px;
+}
+
+.list-group li {
+    margin-left: 0 !important;
+}
+h3 {
+    margin-bottom: 0 !important;
+}
+p.confirm-email span {
+    color: red;
+    width: 170px;
+    position: absolute;
+    font-weight: 900;
+    display: none;
+}

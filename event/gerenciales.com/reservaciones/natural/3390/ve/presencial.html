@@ -1,0 +1,276 @@
+
+
+<div id="ajax_loading" style="display:none;text-align:center"><img src="../../../../img/icons/ajax_load.gif"  alt="Cargando" /><br> Guardando Su Reservación...</div>
+
+
+
+<form action="http://gerenciales.com/reservaciones/reservar_natural/3390/ve" id="reserv_nat" method="post">    <input type="hidden" value="presencial" id="modalidad_evento" />
+	<h3>Reservación Presencial - Persona Natural</h3>
+
+	<p><a href="../../../../eventos/ver/3390/gestion-finanzas-negocios-venezuela.html" id="volver_reservacion"><i class="fa fa-chevron-left"></i> Volver</a></p>
+
+	<p>Recuerde que la información suministrada aqui será utilizada en la elaboración de su factura.</p>
+
+	<p class="alert alert-warning">
+		Si desea factura a nombre de su empresa debe Reservar como Persona Juridica.<br>
+		Recuerde que si reserva y no cancela en la fecha acordada tres veces, su cédula quedará bloqueada para futuras reservaciones.
+	</p>
+
+    
+
+    <fieldset id="lista_reserva">
+		
+	      <legend>Datos de Facturación</legend>
+
+		
+	      <p><label for="nombre_0">Nombre *</label><input type="text" name="nombre_0" value="" class="nombres ui-widget-content ui-corner-all" required /></p>
+
+	      <p><label for="apellido_0">Apellido  *</label><input type="text" name="apellido_0" value="" class="nombres ui-widget-content ui-corner-all" required /></p>
+	      <p>
+	      	<label for="cedula_0">Cédula *</label>
+	      	<select name="pre_cedula_0" class="ui-widget-content ui-corner-all"id="pre_cedula_0"><option value="V">V - Venezolano</option><option value="P">P - Pasaporte</option><option value="E">E - Extranjero</option></select>			
+	      	<input type="text" name="cedula_0" value="" class="ui-widget-content ui-corner-all cedulas" size="13" required />
+	      </p>
+
+	      <p class="confirm-email"><label for="email">Email *</label><input type="email" name="email" value="" class="ui-widget-content ui-corner-all confirm-email" required="required" autocomplete="off"  />
+		  <span>Las direcciones de correo deben coincidir</span>
+		  </p>
+
+		  <p class="confirm-email"><label for="confirmar_email">Confirmar Email *</label><input type="email" name="confirmar_email" value="" class="ui-widget-content ui-corner-all confirm-email" required="required" autocomplete="off"  />
+		  <span>Las direcciones de correo deben coincidir</span>
+		  </p>
+
+	      <p><label for="tlf_fijo">Teléfono Fijo *</label><input type="text" name="tlf_fijo" value="" class="ui-widget-content ui-corner-all" required /></p>
+
+	      <p>
+	      	<label for="tlf_cel">Teléfono Celular *</label>	      	<select name="pre_tlf_cel" class="ui-widget-content ui-corner-all">
+	      		<option value="0414">0414</option>
+	      		<option value="0424">0424</option>
+	      		<option value="0416">0416</option>
+	      		<option value="0426">0426</option>
+	      		<option value="0412">0412</option>
+	      	</select>
+	      	<input type="text" name="tlf_cel" value="" class="ui-widget-content ui-corner-all" maxlength="7" size="7" required /><br>
+	      	(Este número se usará unicamente para notificarle sobre el status de su reserva)
+	      </p>
+			
+		  				<p><label for="cupon">Cupon de descuento</label><input type="text" name="cupon" value="" class="ui-widget-content ui-corner-all" /></p>
+	      		  
+	      <p>
+	      	<span style="font-size:13px;font-weight: 900">Dirección Fiscal* (Solo dirección para facturación):</span>
+	      	<br>
+	      	<textarea name="direccion_fiscal" rows="4" cols="50" class="ui-widget-content ui-corner-all" required ></textarea>
+	      </p>
+
+    </fieldset>
+
+
+    <!-- ASISTENTES -->
+    <fieldset>
+
+      <legend>Asistentes al Evento</legend>
+      <p>
+	    <b>Colocar la cédula de los asistentes sin caracteres especiales (,.-#). Solo números.</b>
+	  </p>
+       <p>
+	        La persona encargada de realizar la reservación asistirá al Evento?<br>
+	        <input type="radio" name="p_encargada_asiste" value="si"  />Si
+	        <input type="radio" name="p_encargada_asiste" value="no"  />No
+       </p>
+
+	   <p>
+      	Número Total de Asistentes Presenciales:
+	    <img class="ajax_load"  src="../../../../img/icons/ajax_load.gif"  style="display:none"  alt="Cargando" /> <br>
+
+      		    <p class="alert alert-warning">
+	      	Recuerde que puede disfrutar de nuestras promociones:
+		    <b>"Paga 2 y Lleva 3"</b>, <b>"Paga 4 y Lleva 6"</b>, <b>"Paga 6 y Lleva 10"</b>, <b>"Paga 12 y Lleva 20"</b>, <b>"Paga 17 y Lleva 30"</b>,
+		     y automáticamente se verá reflejado en su factura. <br>
+		     <u>Abajo debe indicar el número <b>TOTAL</b> de asistentes al Evento.</u>
+            	    </p>
+		
+              	<div id="contenedor_n_asistentes" style="text-align: center;">
+           <span><input class="botones_asistentes" type="button" name="n_menos" id="n_menos" value="&lt;" /></span>
+		   <span><input type="text" class="numero" name="n_asistentes" maxlength="2" value="1" style="width:20px; " /></span>
+	       <span><input class="botones_asistentes" type="button" name="n_mas" id="n_mas" value="&gt;" /></span>
+	    </div>
+
+	  </p>
+
+
+
+     <table id="lista_asistentes">
+
+        <thead>
+          <tr>
+          	<th> Nº </th>
+            <th width=113>Nombre</th>
+            <th width=113>Apellido</th>
+            <th width=154>Cédula</th>
+            <th width=113>Celular</th>
+            <th width=113>Correo</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+        </tbody>
+      	<script id="template_fila_asistentes" type="text/template">
+			<tr>
+			  <td class="contador">{{contador}}</td>
+			  <td><input type="text" name="nombres[{{index}}]" value="" class="nombres ui-widget-content ui-corner-all" required></td>
+			  <td><input type="text" name="apellidos[{{index}}]" value="" class="nombres ui-widget-content ui-corner-all" required></td>
+			  <td>
+			  	<select name="pre_cedula[{{index}}]" class="ui-widget-content ui-corner-all"id="pre_cedula[{{index}}]"><option value="V">V - Venezolano</option><option value="P">P - Pasaporte</option><option value="E">E - Extranjero</option></select>			  	<input type="number" name="cedulas[{{index}}]" value="" class="cedulas ui-widget-content ui-corner-all" required>
+			  </td>
+			  <td><input type="number" name="celulares[{{index}}]" value="" class="cedulas ui-widget-content ui-corner-all" required></td>
+			  <td><input type="email" name="correos[{{index}}]" value="" class="ui-widget-content ui-corner-all" required></td>
+			  
+			</tr>
+		</script>
+      </table>
+
+      
+    </fieldset>
+
+	<!-- Modalidad de reserva de diplomados -->
+    
+	<fieldset>
+
+	 <!-- Entrega Factura -->
+    
+<style>
+    .direccion_wrapper{
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .direccion_wrapper .inclu{
+        float:left;
+        width: 40%;
+        margin-left:35px !important;
+    }
+
+    .direccion_wrapper textarea{
+        width: 218px;
+        height: 100px;
+        resize: none;
+        margin-bottom: 10px;
+    }
+</style>
+
+	<fieldset>
+
+		<input type="hidden" name="entr_factura" value="dia_evento">
+	<!--
+        <legend>Facturación </legend>
+	    <p>
+	        <input type="radio" name="entr_factura" value="dia_evento"  checked="checked"  />
+	        Retiraré la factura el día del evento (Recomendado).<br>
+		    <input type="radio" name="entr_factura" value="envio_mrw" />
+		    Favor enviarme la factura por ZOOM con cobro a destino a la siguiente dirección:
+		    <div id="ingresar_dir_envio_factura" style="display:none" >
+				<small class="nota_importante">
+			    	Unicamente se enviará cuando la factura ya ha sido pagada.
+			    </small><br>
+			    <textarea name="direccion_envio" rows="4" cols="50" class="ui-widget-content ui-corner-all"></textarea>
+		    </div>
+	    </p>-->
+		</fieldset>
+    <br>
+
+
+	
+    <p>
+      Comentarios o Información Adicional: <br>
+      <textarea name="info_adicional" cols="50" rows="4" class="ui-widget-content ui-corner-all" ></textarea>    </p>
+
+
+   <p>¿A través de que medio se enteró de este Evento?&nbsp;&nbsp;
+   	<input type="text" name="medio_publicidad" value="" class="ui-widget-content ui-corner-all" />   </p>
+
+   <textarea disabled rows="16" class="form-control">
+-------------------------------------
+Términos y Condiciones de Reservación
+-------------------------------------
+1. Condiciones generales
+Los participantes deberán tener al menos 12 años.
+2. Participación en el curso y conﬁrmación de la inscripción
+2.1. Una vez seleccionado el curso y luego de realizada la reservación a  través del portal Gerenciales.com, el participante recibirá una conﬁrmación por parte de Consiguetodo C.A a su email, posteriormente recibirá copia de la factura y el número de localizador de su inscripción. El contrato se hará efectivo en el momento de recibir dicha información.
+3. Precios y condiciones de pago
+3.1. Cada curso tendrá el valor reflejado en la página web
+3.2. Existen varias modalidades de pago de contado y a crédito el cual tiene diferente precio
+3.3. En caso de no asistir al evento seleccionado tendrá el mismo como abono durante los próximos 3 meses para poder utilizarlo en otros eventos. Si el cliente solicita el reembolso del dinero será descontado el 20% de valor de la factura, por gastos administrativos (esta condición solo aplica si el evento fue desarrollado en la fecha programada).
+3.4. Para los eventos destacados especiales y los eventos que se desarrollen fuera de nuestra sede principal; para cualquiera de los casos presentados de los participantes, no se reembolsara monto alguno. De igual manera para todos los casos en el que participante no pueda asistir al evento se le tomara el pago realizado como abono para eventos futuros dentro de los 3 meses continuos a la fecha del evento al que no pudo asistir.
+3.5. En caso de que el evento no se pueda desarrollar por causa de fuerza mayor se le preguntará al usuario si desea mantener el dinero como abono para próximos cursos o por el contrario le será devuelto la cantidad transferida.
+4. Cambios en la reserva
+Los cambios en la reserva de los servicios (por ejemplo, un cambio en la fecha del curso) estarán permitidos en casos excepcionales y siempre tras la consulta previa con la administración. El primer cambio en la reserva será gratuito y cada cambio adicional con llevará un importe administrativo.
+5. Cancelación
+5.1. El participante podrá pagar la reserva del curso según las siguientes condiciones:
+El participante podrá presentar un justiﬁcante, Membresía u otro documento que acredite la aplicación de una tarifa más económica en casos concretos. (para cupones y promociones)
+5.2. Cualquier pago deberá ser reportado en la web gerenciales.com o en su defecto a los correos indicados al momento de hacer la reservación.
+6. Asignación del número de participantes por evento
+6.2. En todos los cursos, el número de participantes por clase dependerá del evento a realizar.
+8. Obligaciones del participante
+8.1. El participante será el único responsable de su seguro de salud, de accidente, de responsabilidad y de propiedad. Consiguetodo C.A no asume ninguna responsabilidad legal al respecto.
+8.2. El participante estará obligado a cumplir con las normas del evento y con el reglamento interno vigente en Consiguetodo C.A
+9. Alcance de la responsabilidad de Consiguetodo C.A
+9.1. Soluciones Gerenciales se hará responsable por daños y perjuicios originados por cualquier motivo legal únicamente en el caso de negligencia grave o dolo.
+9.2. Quedan excluidos otros derechos contractuales y delictuales más amplios del participante
+10. Fuerza mayor
+Ni Consiguetodo C.A ni ninguno de sus empleados se harán responsables ante el incumplimiento de sus obligaciones contractuales o ante los daños debidos a causas de fuerza mayor, en especial por causa de incendios, inundaciones, temporales u otras fuerzas de la naturaleza, por explosiones, huelgas, situaciones de guerra, disturbios, hurtos u otros motivos que escapen a la responsabilidad o a la inﬂuencia de Consiguetodo C.A
+11. Protección de datos
+Consiguetodo C.A almacena, procesa y utiliza datos personales del participante con la ﬁnalidad del cumplimiento de un contrato ﬁrmado con el mismo o con la ﬁnalidad de cumplir con una declaración de conformidad en régimen de protección de datos que le haya sido impuesta.
+12. Derecho aplicable
+El derecho aplicable a estas condiciones de participación y a todas las relaciones jurídicas entre Consiguetodo C.A y el participante será el derecho en la República Bolivariana de Venezuela.
+13. Cláusula de salvaguardia
+En caso de quedar sin efecto parte o alguna fórmula de estas condiciones, las demás partes no se verán afectadas ni en su contenido ni en su validez. La condición considerada nula será sustituida por otra de vigencia legal que se le asemeje al máximo en cuanto a contenido y repercusión económica.
+
+---------------------------
+Política de Privacidad Web
+---------------------------
+Mediante el presente texto se informa a los usuarios de esta web de las condiciones generales que rigen para su utilización y consulta. Éstas suponen por parte de los usuarios la aceptación plena de las condiciones expuestas en este documento. El visitante se compromete a utilizar esta web y los servicios que se ofrecen de conformidad con la ley, estas condiciones generales, así como con la moral y buenas costumbres generalmente aceptadas y el orden público. El usuario se obliga a indemnizar a Consiguetodo C.A por cualquier daño o perjuicio que pudiera ocasionar por el uso de esta web, infringiendo la legalidad vigente.
+También se informa en este documento de las condiciones particulares que rigen para la contratación de determinados servicios que se ofrecen en esta web.
+Consiguetodo C.A se reserva el derecho de modificar las condiciones legales que se exponen en este documento sin previo aviso.
+Propiedad legal y copyright. Limitación de responsabilidad
+Esta web y su contenido es propiedad de Consiguetodo C.A, entidad editora y propietaria de la misma. Salvo autorización previa, expresa y por escrito se prohíbe cualquier transmisión, cesión, venta, alquiler y/o exposición pública de esta web o cualquier parte de la misma.
+Consiguetodo C.A se reserva el derecho de modificar el contenido de la web sin previo aviso y sin ningún tipo de limitación. La entidad declina cualquier responsabilidad por los eventuales daños y perjuicios que puedan ocasionarse por la falta de disponibilidad y/o continuidad de esta web y de los servicios que se ofrecen en ella.
+Las personas o empresas que remitan cualquier tipo de información a Consiguetodo C.A se comprometen a que la misma sea veraz y que no vulnere cualquier derecho de terceros ni la legalidad vigente. Si ud. cree que cualquier contenido y/o información de esta web vulnera un derecho legítimo o la legalidad vigente no dude en contactar con nosotros:
+
+Entidad: Consiguetodo C.A
+Dirección Postal: Zona Industrial Carabobo 9na Transversal Galpón 79-95 detrás del C.C Ara. Valencia Carabobo Venezuela
+Teléfono: 0058 241 8388005
+Fax: 0058 241 8388005
+ E-mail: mercadeo@gerenciales.com
+Las condiciones generales expuestas en este documento se rigen por la ley de la república de Panamá.
+Política de protección de datos personales
+Consiguetodo C.A situada en Panamá Ciudad de Panamá, y titular del dominio www.gerenciales.com, es titular también de la base de datos generada con los datos de carácter personal suministrados por los usuarios.
+El usuario autoriza el tratamiento automatizado de los datos personales suministrados, necesarios para la prestación de los servicios ofrecidos www.gerenciales.com, respetando siempre la legislación Venezolana sobre protección de los datos. Esta información es recibida por Consiguetodo C.A y nunca es vendida, cedida o alquilada a otras empresas o entidades.
+Ocasionalmente, Consiguetodo C.A puede enviar un e-mail notificando mejoras o novedades que se produzcan en esta web o en alguna otra web de la entidad, asi como tanto de servicios propios que ofrezcamos. En cualquier momento pueden darse de baja enviando un email a remover@gerenciales.com o automáticamente de nuestros boletines.
+La información personal recabada de los usuarios registrados es almacenada en bases de datos propiedad de Consiguetodo C.A, que asume las medidas de índole técnica, organizativa y de seguridad que garanticen la confidencialidad e integridad de la información de acuerdo con la ley actual de Protección de Datos de Carácter Personal, y demás legislación aplicable.
+El usuario responderá, en cualquier caso, de la veracidad de los datos facilitados, reservándose (Consiguetodo C.A) el derecho a excluir de los servicios registrados a todo usuario que haya facilitado datos falsos, sin prejuicio de las demás acciones que procedan en Derecho.
+Cualquier usuario registrado puede en cualquier momento ejercer el derecho a acceder, rectificar y, en su caso, cancelar sus datos de carácter personal suministrados a Consiguetodo C.A, mediante comunicación escrita dirigida a la entidad
+Att:
+Consiguetodo C.A
+Zona Industrial Carabobo 9na Transversal Galpón 79-95 detrás del C.C Ara. Valencia Carabobo Venezuela
+
+
+</textarea>
+
+<label for="acepto_term_y_cond" style="width:100%">
+	<input type="checkbox" value="si_acepto" name="acepto_term_y_cond" id="acepto_term_y_cond" required="required">
+	He Leido y Acepto los Términos, Condiciones y Política de Privacidad de Consiguetodo C.A.
+</label>
+	
+   <p><input type="submit" value="Reservar" class="boton btn btn-success" /></p>
+
+
+</form>
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"o3awj1a8gN002R", domain:"gerenciales.com",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "../../../../../d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="../../../../../d5nxst8fruw4z.cloudfront.net/atrkf66c.gif?account=o3awj1a8gN002R" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->  
+

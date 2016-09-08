@@ -1,0 +1,12 @@
+
+#ev_contenido dl{ /*margin: 40px auto; width: 600px;*/ }
+#ev_contenido dt, #ev_contenido dd{ padding: 6px; }
+#ev_contenido dt{ background: #333333; color: white; border-bottom: 1px solid #141414; border-top: 1px solid #4E4E4E; cursor: pointer; font-size:14px; }
+#ev_contenido dd{ background: #F5F5F5; display: none; line-height: 1.6em; }
+#ev_contenido dt.activo, #ev_contenido dt:hover{ background: #424242; }
+
+#ev_contenido dt:before{ content: "▸"; margin-right: 10px; }
+#ev_contenido dt.activo:before{ content: "▾"; }
+#ev_contenido dt {
+    text-transform: uppercase;
+}

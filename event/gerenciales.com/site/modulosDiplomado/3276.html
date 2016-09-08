@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from gerenciales.com/site/modulosDiplomado/3276 by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 28 Aug 2016 02:58:54 GMT -->
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="refresh" content="600">
+
+    <title>Soluciones Gerenciales</title>
+
+    <link rel="stylesheet" href="../../css/960/reset.css">
+    <link rel="stylesheet" href="../../css/960/text.css">
+    <link rel="stylesheet" href="../../css/960/960.css">
+    <link rel="stylesheet" href="../../css/popups.css">
+    <link rel="stylesheet" href="../../css/tabs.css">
+
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <script type="text/javascript" src="../../js/lib/bootstrap.min.js"></script>
+
+    <style>
+        div.tab_container {
+            width: 98%
+        }
+
+        ul.tabs {
+            width: 98.2%
+        }
+        table caption {
+            font: bold 16px verdana, helvetica, sans-serif;
+        }
+    </style>
+
+    <script src="../../../ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    <script>
+        $(function () {
+
+            //alert('epa');
+            /*  * TABS (pestaas) Ver_evento  */
+            $(".tab_content").hide(); //Hide all content
+            $("ul.tabs li:first").addClass("active").show(); //Activate first tab
+            $(".tab_content:first").show(); //Show first tab content
+            //On Click Event
+            $("ul.tabs li").click(function () {
+                $("ul.tabs li").removeClass("active"); //Remove any "active" class
+                $(this).addClass("active"); //Add "active" class to selected tab
+                $(".tab_content").hide(); //Hide all tab content
+                var activeTab = $(this).find("a").attr("href"); //Find the href attribute value to identify the active tab + content
+                $(activeTab).fadeIn(); //Fade in the active ID content
+                return false;
+            });
+        });
+    </script>
+
+</head>
+
+<body style="padding: 10px; background:#f9f9f9">
+
+<table class="table">
+    <caption>Módulos Presenciales</caption>
+    <thead>
+    <tr class="success">
+        <th>Módulo</th>
+        <th>Fecha</th>
+        <th>Horario</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            <th>HiperExcel Básico </th>
+            <th>Viernes 29 de Julio de 2016</th>
+            <th>8 Horas Académicas (9:00 am a 4:00 pm)</th>
+        </tr>
+
+    
+        <tr>
+            <th>HiperExcel Intermedio  </th>
+            <th>Viernes 12 de Agosto de 2016</th>
+            <th>8horas académicas ( 9:00 am a 4:00 pm)</th>
+        </tr>
+
+    
+        <tr>
+            <th>HiperExcel Avanzado</th>
+            <th>Viernes 19 de Agosto de 2016</th>
+            <th>8 Horas Académicas ( 9:00 am a 4:00 pm</th>
+        </tr>
+
+    
+        <tr>
+            <th>HiperExcel Experto</th>
+            <th>Viernes 26 de Agosto de 2016</th>
+            <th>8 Horas Académicas (9:00 am a 4:00 pm)</th>
+        </tr>
+
+        </tbody>
+</table>
+
+<table class="table">
+    <caption>Módulos Online</caption>
+    <thead>
+    <tr class="success">
+        <th>Módulo</th>
+        <th>Fecha</th>
+        <th>Horario</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            <th>HiperExcel Básico  ONLINE</th>
+            <th>Viernes 29 de Julio de 2016</th>
+            <th>8 Horas Académicas (9:00 am a 4:00 pm)</th>
+        </tr>
+
+    
+        <tr>
+            <th>HiperExcel Intermedio  ONLINE</th>
+            <th>Viernes 12 de Agosto de 2016</th>
+            <th>8horas académicas ( 9:00 am a 4:00 pm)</th>
+        </tr>
+
+    
+        <tr>
+            <th>HiperExcel Avanzado  ONLINE</th>
+            <th>Viernes 19 de Agosto de 2016</th>
+            <th>8 Horas Académicas ( 9:00 am a 4:00 pm</th>
+        </tr>
+
+    
+        <tr>
+            <th>HiperExcel Experto  ONLINE</th>
+            <th>Viernes 26 de Agosto de 2016</th>
+            <th>8 Horas Académicas (9:00 am a 4:00 pm)</th>
+        </tr>
+
+        </tbody>
+</table>
+</body>
+
+<!-- Mirrored from gerenciales.com/site/modulosDiplomado/3276 by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 28 Aug 2016 02:58:54 GMT -->
+</html>
