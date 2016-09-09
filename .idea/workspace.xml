@@ -2,596 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da8ce7cd-f9a2-4efd-bda8-450483c43417" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/backblue.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/d5nxst8fruw4z.cloudfront.net/atrkf66c.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/fade.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/font-awesome-4.6.1/fonts/fontawesome-webfont914c.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/font-awesome-4.6.1/fonts/fontawesome-webfont914c.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/font-awesome-4.6.1/fonts/fontawesome-webfont914c.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/font-awesome-4.6.1/fonts/fontawesome-webfontd41d.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/tint20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3392/gestion-finanzas-negocios-venezuela" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/fonts/glyphicons-halflings-regulard41d.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/banners/banderas/la.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/banners/banderas/pa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/banners/banderas/rd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/banners/banderas/ve.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/banners/bgr_hdr_centro_de_pagos.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/banners/promocion-estudiantes-2013.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/banners/promociones_varias.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/bgr/evento_tab.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/bgr/notas_box.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/bgr/nuestros_clientes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/bgr/slider.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/bgr/slider_nav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/boton-tarjeta-gold3860.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/descuentos_gold/descuento10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/1234_gestin_de_crdito_y_c_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/1254_el_supervisor_hombre_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/1604_sipe_en_lnea_la_pl_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/2145_cmo_prepararse_para_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/2700_se_encuentra_su_empr_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3128_hiper_excel_sl2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3288_tributos_para_direct_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3327_pginas_web_en_tiempo_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3329_interfaz_de_usuario_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3331_javascript_para_el_d_sl1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3336_lean_manufacturing_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3337_lean_manufacturing_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3338_sixsigma_y_sus_venta_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3339sixsigma.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3340_calidad_empresarial_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3361_planilla_100_prctico_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3363_certificacin_especia_sl2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3366_auditoria_fiscal_sl2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3368_itbms_contabilidad_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3370_reenfoque_de_las_ope_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3371_reenfoque_de_las_ope_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3372_como_elaborar_un_pla_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3373_como_elaborar_un_pla_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3375_logstica_para_person_sl2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3376_reduccin_de_costos_l_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3377_reduccin_de_costos_l_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3378_secretarias_asistent_sl1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3379_el_supervisor_hombre_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3380_el_supervisor_hombre_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3382_documentacin_para_si_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3383_documentacin_para_si_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3385_etax_20_despeje_duda_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3386_gestin_estratgica_y_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3388_indicadores_de_gesti_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3390_gestin_de_finanzas_e_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3393_gestin_tributaria_de_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3397_cmo_enfrentar_la_cri_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3398_cmo_enfrentar_la_cri_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3399_herramientas_para_la_sl1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3400_gestin_de_ventas_int_sl1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/3401_gestin_de_ventas_int_sl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/1234_gestin_de_crdito_y_c_th.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/1254_el_supervisor_hombre_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/1604_sipe_en_lnea_la_pl_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/2145_cmo_prepararse_para_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/2700_se_encuentra_su_empr_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3128_hiper_excel_th1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3288_tributos_para_direct_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3327_pginas_web_en_tiempo_th2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3329_interfaz_de_usuario_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3331_javascript_para_el_d_th1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3336_lean_manufacturing_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3337_lean_manufacturing_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3338_sixsigma_y_sus_venta_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3339_sixsigma_y_sus_venta_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3340_calidad_empresarial_th1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3361_planilla_100_prctico_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3363_certificacin_especia_th1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3366_auditoria_fiscal_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3368_itbms_contabilidad_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3372_como_elaborar_un_pla_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3373_como_elaborar_un_pla_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3375_logstica_para_person_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3376_reduccin_de_costos_l_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3377_reduccin_de_costos_l_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3378_secretarias_asistent_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3379_el_supervisor_hombre_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3380_el_supervisor_hombre_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3382_documentacin_para_si_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3383_documentacin_para_si_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3385_mesa_de_trabajo_eta_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3386_gestin_estratgica_y_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3388_indicadores_de_gesti_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3390_gestin_de_finanzas_e_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3393_gestin_tributaria_de_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3397_cmo_enfrentar_la_cri_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3398_cmo_enfrentar_la_cri_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3399_herramientas_para_la_th1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/3400_gestin_de_ventas_int_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/567_reenfoque_de_las_ope_th1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/facilitadores/Amelia Belloso.jpg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/facilitadores/Fran.jpg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/facilitadores/Martin Herrera.jpg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/facilitadores/carlos_acosta.jpg (1).jpg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/facilitadores/gamero.png.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/facilitadores/victorleon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/gold_slide.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/ajax_load.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/arrow_l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/arrow_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/flag_contact/argentina.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/flag_contact/colombia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/flag_contact/panama.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/flag_contact/peru.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/flag_contact/republica_dominicana.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/flag_contact/venezuela.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/flags32/pa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/flags32/ve.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/flags32/ve67ed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/flags48/la67ed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/flags48/pa67ed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/flags48/rd67ed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/flags48/ve67ed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/logo_sg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/master_rd67ed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/pa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/pa_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/rd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/talonario.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/ve.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/ve_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/icons/visa_master.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/img_sala_prueba.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/lugares/imperial_aeropuerto.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/lugares/imperial_ptocabello.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/lugares/imperial_viacaracas.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/showcase/imgIncompany/calidad_productividad.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/showcase/imgIncompany/destacado67ed.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/showcase/imgIncompany/finanzas.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/showcase/imgIncompany/gerencia.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/showcase/imgIncompany/importacion.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/showcase/imgIncompany/leyes.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/showcase/imgIncompany/logistica.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/showcase/imgIncompany/negocios.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/showcase/imgIncompany/rrhh67ed.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/showcase/imgIncompany/tecnologia.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/showcase/salones67ed.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/the_bizz_winner2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/images/ui-bg_glass_75_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/images/ui-bg_inset-soft_95_fef1ec_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/img/btn_left.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/img/input/input_text_right.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/img/radio.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/img/select_left.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/img/textarea/textarea-mm-hover.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/img/textarea/textarea_bm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/img/textarea/textarea_ml.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/img/textarea/textarea_mr.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/img/textarea/textarea_tm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/images/head.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3330/true" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3361/true" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3339/ve/online" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/sala_online/prueba/3360" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/hts-cache/new.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/hts-cache/old.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/apis.google.com/js/plusone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/connect.facebook.net/en_US/fbevents.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/cookies.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/d31qbv1cthcecs.cloudfront.net/atrk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/960/960.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/960/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/960/text.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon0387.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon0c55.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon0c5d.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon19c2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon1a99.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon2028.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon204b.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon2208.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon238e.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon23c9.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon2c1d.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon3fdf.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon4818.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon5898.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon5c66.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon6040.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon6075.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon646d.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon657b.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon668c.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon6d01.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon6fe9.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon722f.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon7282.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon7b1b.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon7d0b.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon810e.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon8a4c.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon8bd7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon8da2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon920b.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon94f3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon98ce.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeon98d4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeona1cc.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeona2a2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeona2ea.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeonbcc0.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeonbcd4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeonc08e.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeonc68b.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeonc8dc.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeond49a.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeonde23.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeone05d.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeone062.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeone108.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeone842.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeone861.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeonf2c3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeonf944.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/acordeonDiplomado/acordeonfbf5.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/base67ed.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/base_eventos03ce.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/base_eventos67ed.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/base_pagos.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/basee5c6.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/font-awesome-4.6.1/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/font-awesome-4.6.1/fonts/fontawesome-webfont914c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/font-awesome-4.6.1/fonts/fontawesome-webfont914c.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/frameworks_mix.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/gridtable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/modal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/perfil_pri.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/perfil_pri67ed.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/popups.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/prompt/jquery-impromptu.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/tabs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/css/validator/validator67ed.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3276/hiper-excel-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3288/tributos-para-directivos-no-tributaristas-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3289/tributos-para-directivos-no-tributaristas-online-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3290/tributos-para-directivos-no-tributaristas-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3291/gestion-credito-cobranza-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3292/gestion-credito-cobranza-online-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3315/como-prepararse-para-inspeccion-mpppst-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3316/como-prepararse-para-inspeccion-mpppst-online-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3317/como-prepararse-para-inspeccion-mpppst-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3327/paginas-web-tiempo-real-ajax-jquery-mysql-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3328/paginas-web-tiempo-real-ajax-jquery-mysql-online-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3329/interfaz-usuario-graficos-dinamicos-jquery-ui-charts-js-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3330/interfaz-usuario-graficos-dinamicos-jquery-ui-charts-js-online-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3331/javascript-para-desarrollo-web-front-end-tiempo-real-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3336/lean-manufacturing-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3337/lean-manufacturing-online-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3338/sixsigma-sus-ventajas-competitivas-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3339/sixsigma-sus-ventajas-competitivas-online-venezuela" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3340/calidad-empresarial-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3359/sipe-linea-planilla-calculo-horas-extras-liquidaciones-sisso-panama.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3360/sipe-linea-planilla-calculo-horas-extras-liquidaciones-sisso-online-panama.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3361/planilla-100-practico-panama" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3363/certificacion-especialista-planilla-panama.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3366/auditoria-fiscal-panama.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3367/auditoria-fiscal-online-panama.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3368/itbms-contabilidad-retencion-declaracion-pago-agentes-retencion-retenidos-2016-panama.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3369/itbms-contabilidad-retencion-declaracion-pago-agentes-retencion-retenidos-2016-online-panama" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3370/reenfoque-operaciones-almacenaje-distribucion-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3371/reenfoque-operaciones-almacenaje-distribucion-online-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3372/como-elaborar-plan-negocios-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3373/como-elaborar-plan-negocios-online-venezuela" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3374/logistica-para-personal-no-logisticos-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3375/logistica-para-personal-no-logisticos-online-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3376/reduccion-costos-logisticos-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3377/reduccion-costos-logisticos-online-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3378/secretarias-asistentes-recepcionistas-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3379/supervisor-hombre-clave-relaciones-laborales-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3380/supervisor-hombre-clave-relaciones-laborales-online-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3381/supervisor-hombre-clave-relaciones-laborales-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3382/documentacion-para-sistemas-gestion-iso-9001-iso-14001-osha-18001-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3383/documentacion-para-sistemas-gestion-iso-9001-iso-14001-osha-18001-online-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3384/documentacion-para-sistemas-gestion-iso-9001-iso-14001-osha-18001-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3385/etax-2-0-despeje-dudas-plataforma-tributaria-ayudas-expertos-panama.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3386/gestion-estrategica-balanced-scorecard-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3387/gestion-estrategica-balanced-scorecard-online-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3388/indicadores-gestion-procesos-negocio-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3389/indicadores-gestion-procesos-negocio-online-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3390/gestion-finanzas-negocios-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3391/gestion-finanzas-negocios-online-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3393/gestion-tributaria-empresas-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3394/gestion-tributaria-empresas-online-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3395/como-enfrentar-crisis-negocio-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3397/como-enfrentar-crisis-negocio-online-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3398/como-enfrentar-crisis-negocio-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3399/herramientas-para-gestion-negocios-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3400/gestion-ventas-internacionales-exportaciones-bajo-nuevo-sistema-administrativo-cambiario-prov-014-cencoex-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3401/gestion-ventas-internacionales-exportaciones-bajo-nuevo-sistema-administrativo-cambiario-prov-014-cencoex-online-venezuela.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3402/se-encuentra-su-empresa-preparada-para-resistir-alcance-auditoria-caja-seguro-social-panama.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3403/se-encuentra-su-empresa-preparada-para-resistir-alcance-auditoria-caja-seguro-social-online-panama.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/gold_membership.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/eventos/thumbs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/facilitadores/.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/incompany.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/incompany/solicitar_info/calidad.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/incompany/solicitar_info/destacado.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/incompany/solicitar_info/finanzas.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/incompany/solicitar_info/gerencia.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/incompany/solicitar_info/importacion.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/incompany/solicitar_info/leyes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/incompany/solicitar_info/logistica.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/incompany/solicitar_info/negocios.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/incompany/solicitar_info/rrhh.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/incompany/solicitar_info/tecnologia.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/acordeonDiplomado/acordeon1bce.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/config67ed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/core67ed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/core_pagosae52.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/core_reservaciones887a.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/lib/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/lib/easySlider1.7.7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/lib/jQuery.HTML5izer.placeholder.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/lib/jquery-1.7.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/lib/jquery-ui-1.8.12.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/lib/jquery-ui.datepicker-es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/lib/jquery.alphanumeric.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/lib/jquery.form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/lib/jquery.jqtransform.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/lib/jquery.lazyload.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/lib/modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/lib/moments/moment-with-langs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/lib/moments/moment-with-langs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/lib/moments/moment.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/lib/waypoints.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/noty/jquery.noty.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/noty/layouts/bottom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/noty/layouts/bottomCenter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/noty/layouts/bottomLeft.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/noty/layouts/bottomRight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/noty/layouts/center.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/noty/layouts/centerLeft.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/noty/layouts/centerRight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/noty/layouts/inline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/noty/layouts/top.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/noty/themes/default.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/prompt/jquery-impromptu.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/validator/jquery.validate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/js/validator/messages_es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/liveadmin/client5106.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/panama/dep_tra.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/panama/tarjeta_credito.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/terminos_cond/pa.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/terminos_cond/ve.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/estilo2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/estilo5e1f.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/images/ui-bg_glass_55_fbf9ee_1x400.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/images/ui-bg_glass_75_dadada_1x400.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/images/ui-bg_highlight-soft_75_cccccc_1x100.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/images/ui-icons_222222_256x240.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/images/ui-icons_888888_256x240.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/images/ui-icons_cd0a0a_256x240.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/img/btn_right.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/img/checkbox.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/img/input/input_text_left.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/img/select_right.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/img/textarea/textarea-mm-focus.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/img/textarea/textarea-mm.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/img/textarea/textarea_bl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/img/textarea/textarea_br.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/img/textarea/textarea_tl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/css/img/textarea/textarea_tr.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/index4a4e.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/index7459.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/js/custom3860.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/js/jquery-ui-1.8.12.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/js/jquery.alphanumeric.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/pagos/ve/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/perfil/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/perfil/olvido_codigo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3276/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3288/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3289/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3290/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3291/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3292/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3315/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3316/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3327/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3328/true" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3329/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3331/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3336/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3337/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3338/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3339/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3340/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3359/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3360/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3363/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3366/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3367/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3369/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3370/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3371/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3372/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3373/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3375/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3376/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3377/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3378/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3379/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3380/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3381/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3382/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3383/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3385/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3386/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3387/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3388/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3389/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3390/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3391/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3393/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3394/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3397/true" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3398/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3400/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3401/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3402/true.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/incompany/3403/true" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3288/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3289/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3290/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3291/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3292/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3315/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3316/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3329/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3330/ve/online" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3336/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3337/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3338/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3359/pa/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3360/pa/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3366/pa/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3367/pa/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3369/pa/online" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3370/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3371/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3372/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3373/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3375/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3376/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3377/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3378/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3379/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3380/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3381/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3382/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3383/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3385/pa/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3386/ve/presencial" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3387/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3388/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3389/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3390/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3391/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3393/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3394/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3397/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3398/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3399/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3400/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3401/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3402/pa/presencial" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/juridica/3403/pa/online" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3288/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3289/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3290/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3291/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3292/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3315/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3316/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3329/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3330/ve/online" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3336/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3337/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3338/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3339/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3359/pa/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3360/pa/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3366/pa/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3367/pa/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3369/pa/online" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3370/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3371/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3372/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3373/ve/online" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3375/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3376/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3377/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3378/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3379/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3380/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3381/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3382/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3383/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3385/pa/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3386/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3387/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3388/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3389/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3390/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3391/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3393/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3394/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3397/ve/online" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3398/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3399/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3400/ve/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3401/ve/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3402/pa/presencial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/reservaciones/natural/3403/pa/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/sala_online/prueba/3289.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/sala_online/prueba/3292.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/sala_online/prueba/3316.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/sala_online/prueba/3328.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/sala_online/prueba/3330.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/sala_online/prueba/3337.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/sala_online/prueba/3339" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/sala_online/prueba/3367.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/sala_online/prueba/3369.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/sala_online/prueba/3371.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/sala_online/prueba/3373" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/sala_online/prueba/3375.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/sala_online/prueba/3377.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/sala_online/prueba/3380.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/sala_online/prueba/3383.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/sala_online/prueba/3387.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/sala_online/prueba/3389.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/sala_online/prueba/3391.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/sala_online/prueba/3394" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/sala_online/prueba/3397.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/sala_online/prueba/3401" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/sala_online/prueba/3403.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/site/aspirantes_ponente.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/site/contacto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/site/croquis/1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/site/empresa.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/site/hoteles/valencia.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/site/modulosDiplomado/3276.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/site/modulosDiplomado/3331.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/site/modulosDiplomado/3340.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/site/modulosDiplomado/3363.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/gerenciales.com/site/modulosDiplomado/3399.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/hts-cache/doit.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/hts-cache/new.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/hts-cache/new.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/hts-cache/old.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/hts-cache/old.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/hts-cache/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/hts-cache/winprofile.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/hts-log.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/pagead2.googlesyndication.com/pagead/js/f.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/platform.twitter.com/widgets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/www.google-analytics.com/analytics.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/www.google.com/recaptcha/api85f1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/event/gerenciales.com/img/facilitadores/gamero.png.png" afterPath="$PROJECT_DIR$/event/gerenciales.com/img/facilitadores/gamero.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3288/tributos-para-directivos-no-tributaristas-venezuela.html" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3288/tributos-para-directivos-no-tributaristas-venezuela.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3289/tributos-para-directivos-no-tributaristas-online-venezuela.html" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3289/tributos-para-directivos-no-tributaristas-online-venezuela.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3290/tributos-para-directivos-no-tributaristas-venezuela.html" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3290/tributos-para-directivos-no-tributaristas-venezuela.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3291/gestion-credito-cobranza-venezuela.html" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3291/gestion-credito-cobranza-venezuela.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3292/gestion-credito-cobranza-online-venezuela.html" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3292/gestion-credito-cobranza-online-venezuela.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3378/secretarias-asistentes-recepcionistas-venezuela.html" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3378/secretarias-asistentes-recepcionistas-venezuela.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3386/gestion-estrategica-balanced-scorecard-venezuela.html" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3386/gestion-estrategica-balanced-scorecard-venezuela.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3387/gestion-estrategica-balanced-scorecard-online-venezuela.html" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3387/gestion-estrategica-balanced-scorecard-online-venezuela.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3388/indicadores-gestion-procesos-negocio-venezuela.html" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3388/indicadores-gestion-procesos-negocio-venezuela.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3389/indicadores-gestion-procesos-negocio-online-venezuela.html" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3389/indicadores-gestion-procesos-negocio-online-venezuela.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3390/gestion-finanzas-negocios-venezuela.html" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3390/gestion-finanzas-negocios-venezuela.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3391/gestion-finanzas-negocios-online-venezuela.html" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3391/gestion-finanzas-negocios-online-venezuela.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3393/gestion-tributaria-empresas-venezuela.html" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3393/gestion-tributaria-empresas-venezuela.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3394/gestion-tributaria-empresas-online-venezuela.html" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3394/gestion-tributaria-empresas-online-venezuela.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3397/como-enfrentar-crisis-negocio-online-venezuela.html" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3397/como-enfrentar-crisis-negocio-online-venezuela.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3398/como-enfrentar-crisis-negocio-venezuela.html" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3398/como-enfrentar-crisis-negocio-venezuela.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3399/herramientas-para-gestion-negocios-venezuela.html" afterPath="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3399/herramientas-para-gestion-negocios-venezuela.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event/gerenciales.com/index.html" afterPath="$PROJECT_DIR$/event/gerenciales.com/index.html" />
     </list>
     <ignored path="plantilla.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -612,14 +43,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="506" column="41" selection-start-line="506" selection-start-column="41" selection-end-line="506" selection-end-column="41" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
               <folding>
-                <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#section#3;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#section#0;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/event/gerenciales.com/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gestion-tributaria-empresas-venezuela.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3393/gestion-tributaria-empresas-venezuela.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.7636366">
+              <caret line="304" column="7" selection-start-line="304" selection-start-column="7" selection-end-line="304" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#4;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#5;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#6;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#7;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#8;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#9;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#10;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#11;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#12;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#13;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#14;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#15;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#16;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#17;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#18;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#19;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#20;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#21;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#22;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#23;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#24;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#25;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#26;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#font#0;n#div#27;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#2;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#p#1;n#div#2;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#3;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -644,7 +134,11 @@
         <option value="$PROJECT_DIR$/d3hdz4r8kacav0.cloudfront.net/css/itmc.css" />
         <option value="$PROJECT_DIR$/goitmc.com/index.html" />
         <option value="$PROJECT_DIR$/empresa.html" />
+        <option value="$PROJECT_DIR$/mapGoogle.html" />
+        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/event/gerenciales.com/index.html" />
+        <option value="$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3393/gestion-tributaria-empresas-venezuela.html" />
       </list>
     </option>
   </component>
@@ -654,10 +148,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -684,6 +178,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -716,10 +212,186 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ceprodeap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ceprodeap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gerenciales.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ceprodeap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ceprodeap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gerenciales.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ceprodeap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ceprodeap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gerenciales.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ceprodeap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ceprodeap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gerenciales.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flags32" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ceprodeap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ceprodeap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gerenciales.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facilitadores" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ceprodeap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ceprodeap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gerenciales.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eventos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ceprodeap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ceprodeap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gerenciales.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eventos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3393" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -728,6 +400,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="inde&#9;FILE&#9;file://C:/xampp/htdocs/ceprodeap/index.html" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -743,9 +416,7 @@
     <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
-      <config-file value="" />
-      <node-interpreter value="project" />
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
       <envs />
       <method />
     </configuration>
@@ -762,7 +433,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -773,12 +443,10 @@
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run-script" />
       <scripts />
-      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>C:/Program Files/nodejs/node.exe</node-interpreter>
       <node-options />
       <working-directory />
       <pass-parent-env>true</pass-parent-env>
@@ -791,9 +459,7 @@
       <method />
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -802,7 +468,6 @@
       <changelist id="da8ce7cd-f9a2-4efd-bda8-450483c43417" name="Default" comment="" />
       <created>1469501438704</created>
       <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
       <updated>1469501438704</updated>
       <workItem from="1469501440045" duration="1447000" />
       <workItem from="1470016114353" duration="624000" />
@@ -817,37 +482,48 @@
     <task id="LOCAL-00001" summary="integracion de valores">
       <created>1471127083474</created>
       <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1471127083474</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cambios y depuracion">
+      <created>1473306604769</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1473306604769</updated>
+    </task>
+    <task id="LOCAL-00003" summary=" depuracion">
+      <created>1473307468569</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1473307468569</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="15187000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18177028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23511904" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -864,7 +540,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="integracion de valores" />
     <MESSAGE value="integrtacion con eventos" />
-    <option name="LAST_COMMIT_MESSAGE" value="integrtacion con eventos" />
+    <MESSAGE value="cambios y depuracion" />
+    <MESSAGE value=" depuracion" />
+    <option name="LAST_COMMIT_MESSAGE" value=" depuracion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -873,105 +551,135 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#section#0;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event/gerenciales.com/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#section#3;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#section#0;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#section#3;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#section#0;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#section#3;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#section#0;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#section#3;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#section#0;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#section#3;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#section#0;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3026">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#section#0;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="178" column="41" selection-start-line="178" selection-start-column="41" selection-end-line="178" selection-end-column="41" />
           <folding>
-            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#section#3;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#section#0;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/consulting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/managed-it.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/terms-conditions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#section#3;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#section#0;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="227" column="16" selection-start-line="227" selection-start-column="16" selection-end-line="227" selection-end-column="16" />
           <folding />
         </state>
@@ -979,63 +687,180 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/media.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/empresa.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/goITMC.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/terms-conditions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
+        <state vertical-scroll-proportion="0.0">
           <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/managed-it.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapGoogle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04775281">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/consulting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state vertical-scroll-proportion="0.04775281">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/second/.idea/misc.xml">
+    <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.04775281">
+          <caret line="198" column="35" selection-start-line="198" selection-start-column="35" selection-end-line="198" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/empresa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28651685">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="506" column="41" selection-start-line="506" selection-start-column="41" selection-end-line="506" selection-end-column="41" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding>
-            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#section#3;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#section#0;n#main#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3395/como-enfrentar-crisis-negocio-venezuela.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event/gerenciales.com/img/icons/flags32/ve67ed.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event/gerenciales.com/img/icons/flags32/ve.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event/gerenciales.com/img/icons/flags32/pa.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event/gerenciales.com/img/facilitadores/gamero.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event/gerenciales.com/img/banners/promociones_varias.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event/gerenciales.com/js/lib/jquery.lazyload.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43664384">
+          <caret line="15" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event/gerenciales.com/eventos/ver/3393/gestion-tributaria-empresas-venezuela.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.7636366">
+          <caret line="304" column="7" selection-start-line="304" selection-start-column="7" selection-end-line="304" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#4;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#5;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#6;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#7;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#8;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#9;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#10;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#11;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#12;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#13;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#14;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#15;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#16;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#17;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#18;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#19;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#20;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#21;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#22;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#23;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#24;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#25;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#26;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#font#0;n#div#27;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#p#1;n#div#2;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#3;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event/gerenciales.com/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
