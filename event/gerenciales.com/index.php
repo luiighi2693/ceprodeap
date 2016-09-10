@@ -568,10 +568,26 @@
         </div>
     </section>
     <div class="clear"></div>
+    <?php
+    $mysqli = new mysqli("localhost", "root", "", "ceprodeap");
+
+    $query = 'SELECT * FROM eventoslistado';
+    $result = $mysqli->query($query);
+
+    for ($i = 0; $i < $result->num_rows; $i++) {
+        $row = $result->fetch_array(MYSQLI_ASSOC);
+        printf ("%s (%s)\n", $row["id"], $row["nombreEvento"]);
+    }
+
+    /* free result set */
+    mysqli_free_result($result);
+
+    /* close connection */
+    $mysqli->close();
+    ?>
 </div>
 </div>
 <div class="clear"></div>
-style="display:none">-->
 
 </body>
 </html>
