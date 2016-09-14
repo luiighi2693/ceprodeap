@@ -136,26 +136,6 @@
         </div>
 
         <div id="container-home-eventos">
-            <a class="destacado-home"
-               href="eventos/ver/3378/secretarias-asistentes-recepcionistas-venezuela.html"
-               title="Conferencia Vivencial: Secretarias Asistentes y Recepcionistas - Conoce y aplica herramientas de coaching,Reconoce tus competencias en tu gestión secretarial ejecutiva y Aplica técnicas que te permitan planificar y organizar de una manera más efectiva y eficiente tu labor secretarial"
-               target="_blank">
-                <div style="border-left: 3px solid gold">
-                    <div class="tipo-evento-galeria">
-                        <div>
-                            Conferencia Vivencial
-                        </div>
-                    </div>
-                    <div class="nombre-evento-galeria">
-                        <div>
-                            <h4>Secretarias Asistentes y Recepcionistas</h4>
-                        </div>
-                    </div>
-                    <div class="fecha-evento-galeria">
-                        <span>30-09-2016</span>
-                    </div>
-                </div>
-            </a>
             <?php
             $mysqli = new mysqli("localhost", "root", "", "ceprodeap");
 
@@ -164,16 +144,15 @@
 
             for ($i = 0; $i < $result->num_rows; $i++) {
                 $row = $result->fetch_array(MYSQLI_ASSOC);
-                //printf ("%s (%s)\n", $row["id"], $row["nombreEvento"]);
 
-                printf("<a class=\"destacado-home\"");
-                printf("href=\"eventos/ver/eventos.php?id=$row[id]\"");
-                printf("title=$row[nombreEvento]");
-                printf("target=\"_blank\">");
+                printf("<a class=destacado-home ");
+                printf("href=eventos.php?id=$row[id]");
+                printf(" title=\"$row[nombreEvento]\"");
+                printf(" target=_blank>");
                 printf("<div style=\"border-left: 3px solid $row[colorEvento]\">");
-                printf("<div class=\"tipo-evento-galeria\"><div>$row[tipoEvento]</div></div>");
-                printf("<div class=\"nombre-evento-galeria\"><div><h4>$row[nombreEventoCorto]</h4></div></div>");
-                printf("<div class=\"fecha-evento-galeria\"><span>$row[fecha]</span></div>");
+                printf("<div class=tipo-evento-galeria><div>$row[tipoEvento]</div></div>");
+                printf("<div class=nombre-evento-galeria><div><h4>$row[nombreEventoCorto]</h4></div></div>");
+                printf("<div class=fecha-evento-galeria><span>$row[fecha]</span></div>");
                 printf("</div></a>");
             }
 
