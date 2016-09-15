@@ -120,16 +120,16 @@ $row = $result->fetch_array(MYSQLI_ASSOC);
                                          alt="Venezuela"/> <b>Venezuela</b>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr <?php if($row['telefonoMaster']==null){printf(" style=display:none;");}?>>
                                 <td style="width:80px;font-weight: bold;padding-left:20px">MASTER</td>
                                 <td> <?php printf($row['telefonoMaster'])?></td>
                             </tr>
-                            <tr>
+                            <tr <?php if($row['telefonoFax']==null){printf(" style=display:none;");}?>>
                                 <td style="width:80px;font-weight: bold;padding-left:20px">Telfax</td>
                                 <td> <?php printf($row['telefonoFax'])?></td>
                             </tr>
-                            <tr>
-                                <td style="width:80px;font-weight: bold;padding-left:20px">Celular</td>
+                            <tr  <?php if($row['telefonoCelular']==null){printf(" style=display:none;");}?>>
+                                <td style="width:80px;font-weight: bold;padding-left:20px;">Celular</td>
                                 <td> <?php printf($row['telefonoCelular'])?></td>
                             </tr>
                             </tbody>
@@ -174,51 +174,50 @@ $row = $result->fetch_array(MYSQLI_ASSOC);
                                 <td>
                                     --------------------
                                 </td>
+                            </tr>
+                            <tr <?php if($row['precioPreventaNombre']==null){printf(" style=display:none;");}?>>
+                                <td>
+                                    <?php printf($row['precioPreventaNombre'])?>
+                                </td>
+                                <td width="100px">
+                                    <?php printf($row['precioPreventaMonto'])?>
+                                </td>
+                                <td>
+                                    <?php printf($row['precioPreventaDescripcion'])?>
+                                </td>
 
                             </tr>
-                            <tr>
+                            <tr <?php if($row['precioNormalNombre']==null){printf(" style=display:none;");}?>>
                                 <td>
-                                    Preventa
+                                    <?php printf($row['precioNormalNombre'])?>
                                 </td>
                                 <td width="100px">
-                                    Bs. 25.000,00
+                                    <?php printf($row['precioNormalMonto'])?>
                                 </td>
                                 <td>
-                                    Válido hasta el 25 de Septiembre
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td>
-                                    Normal
-                                </td>
-                                <td width="100px">
-                                    Bs. 26.000,00
-                                </td>
-                                <td>
-                                    Válido desde el 26 de Septiembre hasta el 02 de Octubre
+                                    <?php printf($row['precioNormalDescripcion'])?>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr <?php if($row['precioDiaEventoNombre']==null){printf(" style=display:none;");}?>>
                                 <td>
-                                    Día del Evento
+                                    <?php printf($row['precioDiaEventoNombre'])?>
                                 </td>
                                 <td width="100px">
-                                    Bs. 27.000,00
+                                    <?php printf($row['precioDiaEventoMonto'])?>
                                 </td>
                                 <td>
-                                    (Previa Reservación)
+                                    <?php printf($row['precioDiaEventoDescripcion'])?>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr <?php if($row['precioCartaCompromisoNombre']==null){printf(" style=display:none;");}?>>
                                 <td>
-                                    Carta de Compromiso
+                                    <?php printf($row['precioCartaCompromisoNombre'])?>
                                 </td>
                                 <td width="100px">
-                                    Bs. 30.000,00
+                                    <?php printf($row['precioCartaCompromisoMonto'])?>
                                 </td>
                                 <td>
-                                    Para empresas que cancelen después del evento. Promociones NO APLICAN.
+                                    <?php printf($row['precioCartaCompromisoDescripcion'])?>
                                 </td>
                             </tr>
                         </table>
@@ -226,11 +225,7 @@ $row = $result->fetch_array(MYSQLI_ASSOC);
                         <div id="incluye">
                             <h3><i class="fa fa-cubes"></i> INCLUYE</h3>
                             <ul>
-                                <li>Material de Apoyo</li>
-                                <li>Tarjeta de Membresía</li>
-                                <li>Refrigerios</li>
-                                <li>Certificado</li>
-                                <li>Hologram Sticker 3D (Validación de Certificado)</li>
+                                <?php printf($row['incluyeEvento'])?>
                             </ul>
 
                             <p style="margin: 0" class="alert alert-warning">Nota: En el caso de no poder asistir al
