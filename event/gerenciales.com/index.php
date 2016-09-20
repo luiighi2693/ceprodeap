@@ -73,37 +73,37 @@
 
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <a href="eventos/ver/3276/hiper-excel-venezuela.html"><img
+                <img
                         src="img/eventos/3128_hiper_excel_sl2.jpg"
                         alt="Diplomado: Hiper Excel - Establezca y conozca las estructuras idóneas para la manipulación de información en una hoja de calculo"/></a>
             </div>
             <div class="item ">
-                <a href="eventos/ver/3331/javascript-para-desarrollo-web-front-end-tiempo-real-venezuela.html"><img
+                <img
                         src="img/eventos/3331_javascript_para_el_d_sl1.jpg"
                         alt="Diplomado: JavaScript para el Desarrollo Web Front-end en Tiempo Real - Adquiere los conocimientos técnicos necesarios y conoce las herramientas indispensables para la creación de páginas web dinámicas ajustadas a los últimos estándares de la web 2.0"/></a>
             </div>
             <div class="item ">
-                <a href="eventos/ver/3340/calidad-empresarial-venezuela.html"><img
+                <img
                         src="img/eventos/3340_calidad_empresarial_sl.jpg"
                         alt="Diplomado: Calidad Empresarial - Genera las habilidades requeridas para aplicar las herramientas básicas de calidad antes, durante y al final de un proceso productivo"/></a>
             </div>
             <div class="item ">
-                <a href="eventos/ver/3363/certificacion-especialista-planilla-panama.html"><img
+                <img
                             src="img/eventos/3363_certificacin_especia_sl2.jpg"
                         alt="Diplomado: Certificación Especialista en Planilla - Obtén la herramientas necesarias para ser un especialista en planilla "/></a>
             </div>
             <div class="item ">
-                <a href="eventos/ver/3291/gestion-credito-cobranza-venezuela.html"><img
+                <img
                         src="img/eventos/1234_gestin_de_crdito_y_c_sl.jpg"
                         alt="Jornada: Gestión de Crédito y Cobranza - Genere cobranzas exitosas, a través de una comunicación efectiva con el cliente"/></a>
             </div>
             <div class="item ">
-                <a href="eventos/ver/3370/reenfoque-operaciones-almacenaje-distribucion-venezuela.html"><img
+                <img
                         src="img/eventos/3370_reenfoque_de_las_ope_sl.jpg"
                         alt="Jornada: Reenfoque de las Operaciones de Almacenaje y Distribución - Conozca como se puede efectuar un proceso de cambio en los almacenes para insertarlos en las tendencias más modernas que existen"/></a>
             </div>
             <div class="item ">
-                <a href="eventos/ver/3359/sipe-linea-planilla-calculo-horas-extras-liquidaciones-sisso-panama.html"><img
+                <img
                         src="img/eventos/1604_sipe_en_lnea_la_pl_sl.jpg"
                         alt="Seminario:  SIPE En Línea - La Planilla Cálculo de Horas Extras Liquidaciones + SISSO - Aprenda a todo sobre Planilla los Cálculos de Horas Extras Liquidaciones, SIPE y SISSO de manera efectiva y completa, garantizamos el éxito."/></a>
             </div>
