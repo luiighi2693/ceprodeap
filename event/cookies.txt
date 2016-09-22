@@ -1,6 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-.google.com	TRUE	/	FALSE	1999999999	NID	85=rn0q0fnWHBkLu_zKbWjoj-yw0RD_IfkbCVl_YBpcdWCvqaB7KxVpULtbuF6ccKsLrYfAgpi9n-pH6YSqy6cZb_n4r1xfkQSwCOX6BcThTB73yaKb60ww6KZ2ey6L3oeG
-gerenciales.com	TRUE	/	FALSE	1999999999	gerenciales_pagos	ac14e56733cdbe134ce67360e000e95b
-gerenciales.com	TRUE	/	FALSE	1999999999	ci_session	a%3A4%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%226b7957498f21cf808bf139ce67b1ae2c%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A13%3A%22200.93.12.150%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A50%3A%22Mozilla%2F4.5+%28compatible%3B+HTTrack+3.0x%3B+Windows+98%29%22%3Bs%3A13%3A%22last_activity%22%3Bs%3A10%3A%221472353171%22%3B%7D72a867d427094854b3abd26f436561a1
-

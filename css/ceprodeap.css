@@ -294,79 +294,54 @@ body.user-logged {
     font-weight: 300
 }
 
-.carousel-homepage-container {
-    background: rgba(0, 0, 0, 0.25);
-    padding: 20px 0
+#carousel-container {
+    /*margin-top: 1%;*/
+    /*margin-left: 1%;*/
+    /*float: left;*/
+    width: 100%;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    background: white;
 }
 
-#carousel-homepage .carousel-inner .item {
-    height: 400px;
-    max-height: 400px
+#carousel-eventos {
+    /*width: 1035px;
+    margin: auto;*/
 }
 
-#carousel-homepage .carousel-caption {
-    position: relative;
-    top: auto;
-    left: auto;
-    right: auto;
-    padding: 100px 0
+.carousel-inner img {
+    margin: 0;
+    width: 100%;
+}
+.carousel-control {
+    outline: none !important;
+}
+.carousel-control.right,
+.carousel-control.left {
+    background: none !important;
 }
 
-#carousel-homepage .carousel-caption .title {
-    text-align: right
-}
-
-#carousel-homepage .carousel-caption .title h2 {
-    font-size: 4em!important;
-    font-family: "myriad-pro", sans-serif!important;
-    font-weight: 700!important;
-    text-transform: uppercase
-}
-
-#carousel-homepage .carousel-caption .description {
-    border-left: 2px solid #fff;
-    padding: 10px;
-    font-size: 1.3em;
-    line-height: 1.7;
-    font-weight: 300
-}
-
-#carousel-homepage .carousel-caption .description a {
-    font-weight: 700;
-    color: #fff
-}
-
-@media (max-width: 768px) {
-    #carousel-homepage .carousel-caption {
-        padding: 25px 0
-    }
-    #carousel-homepage .carousel-caption .title {
-        text-align: left
-    }
-    #carousel-homepage .carousel-caption .title span {
-        border-top: 2px solid #fff
-    }
-    #carousel-homepage .carousel-caption .description {
-        border: none
-    }
-    #carousel-homepage .carousel-inner .item {
-        min-height: 190px
+@media screen and (max-width: 1034px) {
+    #carousel-eventos {
+        width: 100%;
     }
 }
 
-@media (min-width: 769px) {
-    .carousel-homepage-container .row {
-        display: table
-    }
-    #carousel-homepage .carousel-caption .title,
-    #carousel-homepage .carousel-caption .description,
-    #carousel-homepage .carousel-caption .icon {
+@media screen and (max-width: 740px) {
+    #carousel-container {
+        width: 100%;
+        margin: 1% auto 0;
         float: none;
-        display: table-cell;
-        vertical-align: middle
     }
-    #carousel-homepage .carousel-caption .description-with-icon {
-        border-right: 2px solid #fff
+
+    #main_content {
+        float: none;
+        width: 100%;
+        margin: 1% auto 0;
+        -webkit-box-ordinal-group: 2;
+        -webkit-order: 1;
+        -ms-flex-order: 1;
+        order: 1;
     }
 }
 
@@ -1465,5 +1440,180 @@ body.user-logged {
     }
     .timeline > li .line {
         display: none
+    }
+}
+
+#main_content {
+    width: 100%;
+    padding: 1%;
+    /*margin-top: 1%;*/
+    /*margin-left: 1%;*/
+    /*float: left;*/
+    background: white;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+
+#container-home-eventos {
+    text-align: center;
+}
+
+#container-home-eventos {
+    text-align: left;
+}
+
+#container-home-eventos a {
+    text-decoration: none;
+    outline: none;
+    color: #666;
+}
+#container-home-eventos a > div {
+    width: 99%;
+    background: white;
+    -webkit-box-shadow: 0 0 1px 1px #ccc;
+    box-shadow: 0 0 1px 1px #ccc;
+    border-left: 3px solid blue;
+    margin-bottom: 1.5em;
+    height: 60px;
+    position: relative;
+    -webkit-transition: background ease 0.5s;
+    transition: background ease 0.5s;
+}
+#container-home-eventos a.destacado-home.admin > div {
+    background: rgba(244, 67, 54, 0.33);
+}
+
+#container-home-eventos a.destacado-home.destacado > div {
+    background: rgba(255, 215, 0, 0.33);
+}
+#container-home-eventos a:nth-child(even) > div {
+    background: rgb(250,250,250);
+}
+#container-home-eventos a:hover > div {
+    background: #344ab7 !important;
+}
+#container-home-eventos a:hover div.nombre-evento-galeria h4 {
+    color: white;
+}
+#container-home-eventos a div.fecha-evento-galeria > div {
+    background: #5cb85c;
+    color: white;
+    font-weight: bold;
+    display: none;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 5px;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+#container-home-eventos a div.fecha-evento-galeria > img {
+    width: 32px;
+    height: 32px;
+}
+#container-home-eventos a div.fecha-evento-galeria > img,
+#container-home-eventos a div.fecha-evento-galeria > span {
+    display: inline-block;
+}
+#container-home-eventos a:hover div.fecha-evento-galeria {
+    padding: 0;
+}
+#container-home-eventos a:hover div.fecha-evento-galeria > div {
+    display: block;
+}
+#container-home-eventos a:hover div.fecha-evento-galeria > img,
+#container-home-eventos a:hover div.fecha-evento-galeria > span {
+    display: none;
+}
+#container-home-eventos a > div i {
+    position: absolute;
+    right: -13px;
+    top: -13px;
+    font-size: 2em;
+    color: gold;
+    text-shadow: 1px 1px 1px #666;
+}
+#container-home-eventos a div.tipo-evento-galeria,
+#container-home-eventos a div.nombre-evento-galeria {
+    display: inline-block;
+    vertical-align: top;
+}
+#container-home-eventos a div.nombre-evento-galeria {
+    width: 59%;
+    height: 60px;
+    line-height: 60px;
+}
+#container-home-eventos a div.nombre-evento-galeria div {
+    display: table;
+    height: 60px;
+}
+#container-home-eventos a div.nombre-evento-galeria h4 {
+    font: bold 1.2em/1.4em helvetica, verdana, sans-serif;
+    color: #444;
+    display: table-cell;
+    vertical-align: middle;
+    -webkit-transition: color ease 0.5s;
+    transition: color ease 0.5s;
+}
+#container-home-eventos a div.tipo-evento-galeria {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    width: 7em;
+    text-align: center;
+    margin-right: 1%;
+    -webkit-box-shadow: 1px 0px 2px 0px #aaa;
+    box-shadow: 1px 0px 2px 0px #aaa;
+    height: 60px;
+    font: italic 1.1em/1.2em helvetica, verdana;
+    vertical-align: middle;
+    background: white;
+}
+#container-home-eventos a div.tipo-evento-galeria > div {
+    display: table-cell;
+    height: 60px;
+    vertical-align: middle;
+    width: 7em;
+}
+#container-home-eventos a div.fecha-evento-galeria {
+    position: absolute;
+    background: white;
+    border: 1px solid #ddd;
+    bottom: -10px;
+    right: 15px;
+    padding: 5px;
+    color: #888;
+    z-index: 10;
+    -webkit-transition: all ease-out 0.1s;
+    transition: all ease-out 0.1s;
+    -webkit-box-shadow: -1px -1px 1px 0px #ddd;
+    box-shadow: -1px -1px 1px 0px #ddd;
+}
+#container-home-eventos a div.fecha-evento-galeria img {
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 860px) {
+    #container-home-eventos a div.fecha-evento-galeria {
+        bottom: -35px;
+    }
+    #container-home-eventos a > div {
+        margin-bottom: 3.5em;
+    }
+}
+
+/* Fuentes de los eventos responsive */
+@media screen and (max-width: 900px) {
+    #container-home-eventos a div.tipo-evento-galeria {
+        font-size: 1em;
+    }
+    #container-home-eventos a div.nombre-evento-galeria h4 {
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 480px) {
+    #container-home-eventos a div.tipo-evento-galeria {
+        font-size: 0.8em;
+    }
+    #container-home-eventos a div.nombre-evento-galeria h4 {
+        font-size: 0.8em;
     }
 }
