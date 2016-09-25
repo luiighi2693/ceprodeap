@@ -35,7 +35,7 @@
         <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="nav navbar-nav">
                 <li><a href="empresa.html">La Empresa</a></li>
-                <li><a href="#">Servicios</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
                 <li><a href="#events">Eventos</a></li>
                 <li><a href="contacto.html">Contáctanos</a></li>
             </ul>
