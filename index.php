@@ -34,9 +34,11 @@
         </div>
         <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="nav navbar-nav">
+                <li><a href="index.php">Inicio</a></li>
                 <li><a href="empresa.html">La Empresa</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="servicios.html">Capacitaciones</a></li>
                 <li><a href="#events">Eventos</a></li>
+                <li><a href="#">Novedades</a></li>
                 <li><a href="contacto.html">Contáctanos</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -140,7 +142,7 @@
                     <div id="fb-root"></div>
 
                     <section>
-                        <h1><i class="fa fa-calendar"></i> Próximos Eventos<br/></h1>
+                        <h1><i class="fa fa-calendar"></i> Próximas Capacitaciones<br/></h1>
                     </section>
 
                     <section>
@@ -194,12 +196,11 @@
                         <h2 class="title text-center titlewithmargin">Contáctanos</h2>
                         <ul id="training_services_steps-tab" class="nav nav-tabs text-center" role="tablist">
                             <li class="active"><a href="#training" role="tab" data-toggle="tab">información</a></li>
-                            <li class=""><a href="#services" role="tab" data-toggle="tab">información</a></li>
                         </ul>
                         <div id="training_services_steps-tab-content" class="tab-content">
                             <div class="tab-pane fade active in" id="training">
                                 <div class="row text-center">
-                                    <div class="col-md-6">
+                                    <div class="col-md-3">
                                         <div style="min-height:100px">
                                             <img src="images/home/schedule.png" alt="Register">
                                         </div>
@@ -208,13 +209,30 @@
                                             07:00 AM - 12:00 M<br>
                                             01:00 PM - 04:00 PM</p>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-3">
                                         <div style="min-height:100px">
                                             <img src="images/home/wait_for_us.png" alt="Attend">
                                         </div>
                                         <h3>Dirección</h3>
                                         <p>Calle Este 2 local 4 1er piso, Centro Comercial Narayola, Sector Morita I
                                             Turmero Estado Aragua.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div style="min-height:100px">
+                                            <img src="images/home/register.png" alt="Schedule">
+                                        </div>
+                                        <h3>Teléfonos</h3>
+                                        <p>Sucursales:<br>
+                                            Maracay: (58)0243-218.39.01<br>
+                                            Móvil: (58)0424-433.92.12</p>
+
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div style="min-height:100px">
+                                            <img src="images/home/attend.png" alt="Waif for us">
+                                        </div>
+                                        <h3>Correo</h3>
+                                        <p>info@ceprodeap.co.ve</p>
                                     </div>
                                 </div>
                             </div>
