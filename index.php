@@ -37,6 +37,7 @@
                 <li><a href="index.php">Inicio</a></li>
                 <li><a href="empresa.html">La Empresa</a></li>
                 <li><a href="servicios.html">Capacitaciones</a></li>
+                <li><a href="clientes.html">Clientes</a></li>
                 <li><a href="#events">Eventos</a></li>
                 <li><a href="#">Novedades</a></li>
                 <li><a href="contacto.html">Contáctanos</a></li>
