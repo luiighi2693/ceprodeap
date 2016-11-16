@@ -1752,3 +1752,12 @@ p.small {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+@media screen and (max-width: 900px) {
+    .hideclass {
+        display: none;
+    }
+    .lessHeight{
+        height: 500px;;
+    }
+}
