@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 16-09-2016 a las 03:05:49
--- Versión del servidor: 10.1.13-MariaDB
--- Versión de PHP: 5.6.23
+-- Tiempo de generación: 17-11-2016 a las 05:31:08
+-- Versión del servidor: 10.1.16-MariaDB
+-- Versión de PHP: 5.6.24
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -19,6 +19,33 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `ceprodeap`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `actividades`
+--
+
+CREATE TABLE `actividades` (
+  `id` int(11) NOT NULL,
+  `numero_actividad` int(11) DEFAULT NULL,
+  `tipo_actividad` varchar(255) DEFAULT NULL,
+  `nombre` varchar(500) DEFAULT NULL,
+  `docente` varchar(255) DEFAULT NULL,
+  `area` varchar(255) DEFAULT NULL,
+  `centro_academico` varchar(255) DEFAULT NULL,
+  `duracion` varchar(255) DEFAULT NULL,
+  `lapso` varchar(255) DEFAULT NULL,
+  `organizacion_provinencia` varchar(500) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `actividades`
+--
+
+INSERT INTO `actividades` (`id`, `numero_actividad`, `tipo_actividad`, `nombre`, `docente`, `area`, `centro_academico`, `duracion`, `lapso`, `organizacion_provinencia`) VALUES
+(1, 4672, 'Seminario', 'la modernizacion del control fiscal y la auditoria de estado, aporte de las tecnologias de informacion y comunicacion', 'jorge molero, olinda josefina vasquez ramon, milton jose chavez, jhon robert monrroy', 'control fiscal', 'centro academico de caracas', '16 horas', 'del 14 al 15 de mayo de 2008', 'contraloria general de la republica bolivariana de venezuela'),
+(2, 4552, 'Curso', 'sistema de control interno en las organizaciones publicas', 'jorge molero', 'administracion y finanzas', 'centro academico de caracas', '24 horas', 'del 12 al 14 de diciembre de 2007', 'contraloria general de la republica bolivariana de venezuela');
 
 -- --------------------------------------------------------
 
@@ -90,9 +117,51 @@ INSERT INTO `eventoslistado` (`id`, `tipoEvento`, `colorEvento`, `nombreEvento`,
 (1, 'Conferencia Vivencial', 'gold', 'Conferencia Vivencial: Secretarias Asistentes y Recepcionistas - Conoce y aplica herramientas de coaching,Reconoce tus competencias en tu gesti&oacute;n secretarial ejecutiva y Aplica t&eacute;cnicas que te permitan planificar y organizar de una manera m&aacute;s efectiva y eficiente tu labor secretarial', '22-01-2017', 'Secretarias Asistentes y Recepcionistas'),
 (2, 'Seminario', 'red', 'MESA DE TRABAJO: ETAX 2.0', '07/09/2016', 'MESA DE TRABAJO: ETAX 2.0: Despeje dudas de la plataforma tributaria (ayudas de expertos)');
 
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `usuarios`
+--
+
+CREATE TABLE `usuarios` (
+  `id` int(11) NOT NULL,
+  `cedula` int(11) DEFAULT NULL,
+  `primer_nombre` varchar(255) DEFAULT NULL,
+  `segundo_nombre` varchar(255) DEFAULT NULL,
+  `primer_apellido` varchar(255) DEFAULT NULL,
+  `segundo_apellido` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `usuarios`
+--
+
+INSERT INTO `usuarios` (`id`, `cedula`, `primer_nombre`, `segundo_nombre`, `primer_apellido`, `segundo_apellido`) VALUES
+(1, 7990146, 'surelia', 'mercedes', 'salazar', 'marcano'),
+(2, 24995059, 'luis', 'enriquez', 'rodriguez', 'carvajal\r\n');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `usuario_has_actividad`
+--
+
+CREATE TABLE `usuario_has_actividad` (
+  `id` int(11) NOT NULL,
+  `id_usuario` int(11) DEFAULT NULL,
+  `id_actividad` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
 --
 -- Índices para tablas volcadas
 --
+
+--
+-- Indices de la tabla `actividades`
+--
+ALTER TABLE `actividades`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `actividades_id_uindex` (`id`);
 
 --
 -- Indices de la tabla `eventodetalle`
@@ -108,9 +177,30 @@ ALTER TABLE `eventoslistado`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indices de la tabla `usuarios`
+--
+ALTER TABLE `usuarios`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `usuarios_id_uindex` (`id`);
+
+--
+-- Indices de la tabla `usuario_has_actividad`
+--
+ALTER TABLE `usuario_has_actividad`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `usuario_has_actividad_id_uindex` (`id`),
+  ADD KEY `usuario_has_actividad_usuarios_id_fk` (`id_usuario`),
+  ADD KEY `usuario_has_actividad_actividades_id_fk` (`id_actividad`);
+
+--
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
+--
+-- AUTO_INCREMENT de la tabla `actividades`
+--
+ALTER TABLE `actividades`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT de la tabla `eventodetalle`
 --
@@ -121,6 +211,27 @@ ALTER TABLE `eventodetalle`
 --
 ALTER TABLE `eventoslistado`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+--
+-- AUTO_INCREMENT de la tabla `usuarios`
+--
+ALTER TABLE `usuarios`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+--
+-- AUTO_INCREMENT de la tabla `usuario_has_actividad`
+--
+ALTER TABLE `usuario_has_actividad`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+--
+-- Restricciones para tablas volcadas
+--
+
+--
+-- Filtros para la tabla `usuario_has_actividad`
+--
+ALTER TABLE `usuario_has_actividad`
+  ADD CONSTRAINT `usuario_has_actividad_actividades_id_fk` FOREIGN KEY (`id_actividad`) REFERENCES `actividades` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `usuario_has_actividad_usuarios_id_fk` FOREIGN KEY (`id_usuario`) REFERENCES `usuarios` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
