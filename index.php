@@ -42,7 +42,7 @@
         </div>
     </div>
 </nav>
-<div id="content"></div>
+<div id="content" style="margin-bottom: 200px;"></div>
 
 <div id="footer" class="footer">
     <footer id="colophon" class="site-footer">

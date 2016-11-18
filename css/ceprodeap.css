@@ -1771,7 +1771,13 @@ p.small {
 
 .body{
     position: relative;
-    margin: 0;
-    padding-bottom: 8rem;
-    min-height: 100%;
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
 }
+
+.content{
+    box-sizing: border-box;
+    flex: 1 0 auto;
+}
+
