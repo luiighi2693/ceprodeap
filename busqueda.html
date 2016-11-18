@@ -16,31 +16,16 @@
                                 </div>
                             </div>
 
-                            <div class="form-group col-sm-12">
+                            <div class="form-group" style="padding-left: 10%;">
                                 <table class="table">
                                     <thead>
                                     <tr>
-                                        <th>Firstname</th>
-                                        <th>Lastname</th>
-                                        <th>Email</th>
+                                        <th>link</th>
+                                        <th>nombre</th>
+                                        <th>cedula</th>
                                     </tr>
                                     </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td>John</td>
-                                        <td>Doe</td>
-                                        <td>john@example.com</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Mary</td>
-                                        <td>Moe</td>
-                                        <td>mary@example.com</td>
-                                    </tr>
-                                    <tr>
-                                        <td>July</td>
-                                        <td>Dooley</td>
-                                        <td>july@example.com</td>
-                                    </tr>
+                                    <tbody id="cuerpoTabla">
                                     </tbody>
                                 </table>
                             </div>
@@ -55,16 +40,48 @@
 <input onclick="buscar()" type="button">
 <script>
     function buscar() {
-        jQuery.ajax({
-            type: "POST",
-            url: "util.php",
-            data: {
-                "method" : "search",
-                "search" :  document.getElementById('search').value
-            },
-            success: function(data){
-                console.log($.parseJSON(data));
-            }
-        });
+        if(document.getElementById('search').value!=''){
+            jQuery.ajax({
+                type: "POST",
+                url: "util.php",
+                data: {
+                    "method" : "search",
+                    "search" :  document.getElementById('search').value
+                },
+                success: function(data){
+                    console.log($.parseJSON(data));
+                    var tabla = document.getElementById("cuerpoTabla");
+                    tabla.innerHTML = '';
+                    for (var i=0; i<$.parseJSON(data).length; i++){
+                        var object = $.parseJSON(data)[i];
+                        var nodo = document.createElement("tr");
+
+                        var id = document.createElement("td");
+                        var idLink = document.createElement("a");
+                        idLink.setAttribute("onclick", "usuarioDetalle('"+object.id+"')");
+                        idLink.setAttribute("href", "#");
+                        idLink.appendChild(document.createTextNode('ver'));
+                        id.appendChild(idLink);
+                        nodo.appendChild(id);
+
+                        var nombre = document.createElement("td");
+                        nombre.appendChild(document.createTextNode(object.nombre+" "+object.apellido));
+                        nodo.appendChild(nombre);
+
+                        var cedula = document.createElement("td");
+                        cedula.appendChild(document.createTextNode(object.cedula));
+                        nodo.appendChild(cedula);
+
+                        tabla.appendChild(nodo);
+                    }
+                }
+            });
+        }else{
+            alert('ingrese información valida en la barra de busqueda');
+        }
+    }
+
+    function usuarioDetalle(id) {
+        console.log(id);
     }
 </script>
