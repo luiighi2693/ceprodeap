@@ -136,7 +136,7 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `usuarios`
 --
 
-INSERT INTO `usuarios` (`id`, `cedula`, `primer_nombre`, `segundo_nombre`, `primer_apellido`, `segundo_apellido`) VALUES
+INSERT INTO `usuarios` (`id`, `cedula`, nombre, `segundo_nombre`, apellido, `segundo_apellido`) VALUES
 (1, 7990146, 'surelia', 'mercedes', 'salazar', 'marcano'),
 (2, 24995059, 'luis', 'enriquez', 'rodriguez', 'carvajal\r\n');
 

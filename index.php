@@ -12,7 +12,7 @@
     <link href="css/animate.min.css" rel="stylesheet" type="text/css" property='stylesheet'/>
     <link href="css/font-awesome.min.css" rel="stylesheet" property='stylesheet'>
 </head>
-<body>
+<body class="body">
 <nav class="navbar navbar-default navbar-itmc navbar-itmc-big navbar-fixed-top" id="main-menu">
     <div class="container">
         <div class="navbar-header">
@@ -28,7 +28,7 @@
                 <li><a onclick="$('#content').load('servicios.html');" href="#">Servicios</a></li>
                 <li><a onclick="$('#content').load('clientes.html');" href="#">Clientes</a></li>
                 <li><a onclick="goToEvents();" href="#">Capacitaciones</a></li>
-                <li><a  href="#">Novedades</a></li>
+                <li><a onclick="$('#content').load('busqueda.html');" href="#">Novedades</a></li>
                 <li><a onclick="$('#content').load('contacto.html');" href="#">Contáctanos</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right list-inline">
@@ -44,7 +44,7 @@
 </nav>
 <div id="content"></div>
 
-<div class="footer">
+<div id="footer" class="footer">
     <footer id="colophon" class="site-footer">
         <div class="footer-site-links">
             <div class="container">

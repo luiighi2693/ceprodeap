@@ -12,7 +12,30 @@ if($_POST['method']=='search'){
 
 function search(){
     $mysqli = new mysqli("localhost", "root", "", "ceprodeap");
-    $query = 'SELECT * FROM actividades';
+    if(count(explode(' ',$_POST['search']))==1){
+        $data = "'%".$_POST['search']."%'";
+        $query = 'SELECT DISTINCT usuarios.* FROM usuarios WHERE usuarios.nombre LIKE '.$data
+            .' OR usuarios.apellido LIKE '.$data .' OR usuarios.cedula LIKE '.$data
+            .' UNION SELECT DISTINCT usuarios.* FROM usuarios, actividades, usuario_has_actividad
+            WHERE (usuario_has_actividad.id_usuario=usuarios.id AND
+                usuario_has_actividad.id_actividad=actividades.id) AND
+                actividades.numero_actividad LIKE '.$data;
+    }else{
+        if(count(explode(' ',$_POST['search']))==2){
+            $data1 = "'%".explode(' ',$_POST['search'])[0]."%'";
+            $data2 = "'%".explode(' ',$_POST['search'])[1]."%'";
+            $query = 'SELECT DISTINCT usuarios.*
+              FROM usuarios WHERE
+              usuarios.nombre LIKE '.$data1
+                .' AND usuarios.apellido LIKE '.$data2;
+        }else{
+            $query=null;
+        }
+
+    }
+
+    
+    
     $result = $mysqli->query($query);
 
     $array = array();

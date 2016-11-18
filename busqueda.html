@@ -1,3 +1,57 @@
+<div id="content">
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="form-horizontal">
+                            <h1 style="text-align: center; padding: 5%;">Busqueda</h1>
+
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <input id="search"  type="text" name="search" class="form-control" placeholder="buscar...." value="" required>
+                                </div>
+                                <div class="col-sm-2">
+                                    <button onclick="buscar()" class="btn btn-default btn-block">Buscar</button>
+                                </div>
+                            </div>
+
+                            <div class="form-group col-sm-12">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th>Firstname</th>
+                                        <th>Lastname</th>
+                                        <th>Email</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>John</td>
+                                        <td>Doe</td>
+                                        <td>john@example.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mary</td>
+                                        <td>Moe</td>
+                                        <td>mary@example.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>July</td>
+                                        <td>Dooley</td>
+                                        <td>july@example.com</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+
 <input onclick="buscar()" type="button">
 <script>
     function buscar() {
@@ -5,13 +59,11 @@
             type: "POST",
             url: "util.php",
             data: {
-                "method" : "search"
-//                "userIdFrom" :  userFrom,
-//                "userIdTo" : userTo,
-//                "music" : document.getElementById("searchMusicText").value
+                "method" : "search",
+                "search" :  document.getElementById('search').value
             },
             success: function(data){
-                console.log(data);
+                console.log($.parseJSON(data));
             }
         });
     }
