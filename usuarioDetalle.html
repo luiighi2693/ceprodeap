@@ -1,0 +1,216 @@
+<div id="content">
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="form-horizontal">
+                            <h1 style="text-align: center; padding: 5%;">Historial del participante</h1>
+
+                            <div class="accordion" role="tab" id="headingOne" style="font-size: 18px;padding-left: 10%;">
+                                <div class="accordion-group">
+                                    <div class="accordion-heading">
+                                        <a class = "accordion-toggle" data-toggle="collapse" data-parent="#collapseOne" href="#collapseOne"  aria-controls="collapseOne" style="color: #2b86bf; font-size: 24px;">
+                                            Datos del participante
+                                        </a>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne" style="padding-bottom: 15%;">
+                                        <div class="accordion-inner" style="padding-left: 10%">
+                                            <div class="col-md-4" style="color: #2b86bf;">
+                                                Cédula de identidad
+                                            </div>
+                                            <div id="cedula" class="col-md-8">-
+
+                                            </div>
+                                            <div class="col-md-4" style="color: #2b86bf;">
+                                                Primer nombre
+                                            </div>
+                                            <div id="primerNombre" class="col-md-8">-
+
+                                            </div>
+                                            <div class="col-md-4" style="color: #2b86bf;">
+                                                Segundo nombre
+                                            </div>
+                                            <div id="segundoNombre" class="col-md-8">-
+
+                                            </div>
+                                            <div class="col-md-4" style="color: #2b86bf;">
+                                                Primer apellido
+                                            </div>
+                                            <div id="primerApellido" class="col-md-8">-
+
+                                            </div>
+                                            <div class="col-md-4" style="color: #2b86bf;">
+                                                Segundo apellido
+                                            </div>
+                                            <div id="segundoApellido" class="col-md-8">-
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-group">
+                                    <div class="accordion-heading" role="tab" id="headingTwo">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#collapseTwo" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="color: #2b86bf; font-size: 24px;">
+                                            Historial de actividades en COFAE
+                                        </a>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
+                                        <div id="actividades" class="accordion-inner" style="padding-left: 10%">
+                                            More Content
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+<script>
+    $( document ).ready(function() {
+        console.log('entre');
+        var id = window.localStorage.getItem('idUsuario');
+        window.localStorage.removeItem('idUsuario');
+
+        jQuery.ajax({
+            type: "POST",
+            url: "util.php",
+            data: {
+                "method" : "detailPerson",
+                "id" :  id
+            },
+            success: function(data){
+                document.getElementById('cedula').innerHTML=$.parseJSON(data)[0].cedula;
+                document.getElementById('primerNombre').innerHTML=($.parseJSON(data)[0].nombre).split(' ')[0];
+                document.getElementById('segundoNombre').innerHTML=($.parseJSON(data)[0].nombre).split(' ')[1];
+                document.getElementById('primerApellido').innerHTML=($.parseJSON(data)[0].apellido).split(' ')[0];
+                document.getElementById('segundoApellido').innerHTML=($.parseJSON(data)[0].apellido).split(' ')[1];
+            }
+        });
+
+        jQuery.ajax({
+            type: "POST",
+            url: "util.php",
+            data: {
+                "method" : "activitiesByPerson",
+                "id" :  id
+            },
+            success: function(data){
+                console.log($.parseJSON(data));
+                var tabla = document.getElementById("actividades");
+                tabla.innerHTML = '';
+                for (var i=0; i<$.parseJSON(data).length; i++){
+                    var object = $.parseJSON(data)[i];
+                    //var nodo = document.createElement("div");
+
+                    var numero_actividad_label = document.createElement("div");
+                    numero_actividad_label.setAttribute('class','col-md-4');
+                    numero_actividad_label.setAttribute('style','color: #2b86bf; padding-top: 15px;');
+                    numero_actividad_label.appendChild(document.createTextNode("Actividad no.:"));
+                    tabla.appendChild(numero_actividad_label);
+
+                    var numero_actividad = document.createElement("div");
+                    numero_actividad.setAttribute('class','col-md-8');
+                    numero_actividad.setAttribute('style','padding-top: 25px;');
+                    numero_actividad.appendChild(document.createTextNode(object.numero_actividad));
+                    tabla.appendChild(numero_actividad);
+
+                    var tipo_actividad_label = document.createElement("div");
+                    tipo_actividad_label.setAttribute('class','col-md-4');
+                    tipo_actividad_label.setAttribute('style','color: #2b86bf;');
+                    tipo_actividad_label.appendChild(document.createTextNode("Tipo de Actividad:"));
+                    tabla.appendChild(tipo_actividad_label);
+
+                    var tipo_actividad = document.createElement("div");
+                    tipo_actividad.setAttribute('class','col-md-8');
+                    tipo_actividad.appendChild(document.createTextNode(object.tipo_actividad));
+                    tabla.appendChild(tipo_actividad);
+
+                    var nombre_label = document.createElement("div");
+                    nombre_label.setAttribute('class','col-md-4');
+                    nombre_label.setAttribute('style','color: #2b86bf;');
+                    nombre_label.appendChild(document.createTextNode("Nombre:"));
+                    tabla.appendChild(nombre_label);
+
+                    var nombre = document.createElement("div");
+                    nombre.setAttribute('class','col-md-8');
+                    nombre.appendChild(document.createTextNode(object.nombre));
+                    tabla.appendChild(nombre);
+
+                    var docente_label = document.createElement("div");
+                    docente_label.setAttribute('class','col-md-4');
+                    docente_label.setAttribute('style','color: #2b86bf;');
+                    docente_label.appendChild(document.createTextNode("Docente:"));
+                    tabla.appendChild(docente_label);
+
+                    var docente = document.createElement("div");
+                    docente.setAttribute('class','col-md-8');
+                    docente.appendChild(document.createTextNode(object.docente));
+                    tabla.appendChild(docente);
+
+                    var area_label = document.createElement("div");
+                    area_label.setAttribute('class','col-md-4');
+                    area_label.setAttribute('style','color: #2b86bf;');
+                    area_label.appendChild(document.createTextNode("Área:"));
+                    tabla.appendChild(area_label);
+
+                    var area = document.createElement("div");
+                    area.setAttribute('class','col-md-8');
+                    area.appendChild(document.createTextNode(object.area));
+                    tabla.appendChild(area);
+
+                    var centro_academico_label = document.createElement("div");
+                    centro_academico_label.setAttribute('class','col-md-4');
+                    centro_academico_label.setAttribute('style','color: #2b86bf;');
+                    centro_academico_label.appendChild(document.createTextNode("Centro académico:"));
+                    tabla.appendChild(centro_academico_label);
+
+                    var centro_academico = document.createElement("div");
+                    centro_academico.setAttribute('class','col-md-8');
+                    centro_academico.appendChild(document.createTextNode(object.centro_academico));
+                    tabla.appendChild(centro_academico);
+
+                    var duracion_label = document.createElement("div");
+                    duracion_label.setAttribute('class','col-md-4');
+                    duracion_label.setAttribute('style','color: #2b86bf;');
+                    duracion_label.appendChild(document.createTextNode("Duración:"));
+                    tabla.appendChild(duracion_label);
+
+                    var duracion = document.createElement("div");
+                    duracion.setAttribute('class','col-md-8');
+                    duracion.appendChild(document.createTextNode(object.duracion));
+                    tabla.appendChild(duracion);
+
+                    var lapso_label = document.createElement("div");
+                    lapso_label.setAttribute('class','col-md-4');
+                    lapso_label.setAttribute('style','color: #2b86bf;');
+                    lapso_label.appendChild(document.createTextNode("Lapso:"));
+                    tabla.appendChild(lapso_label);
+
+                    var lapso = document.createElement("div");
+                    lapso.setAttribute('class','col-md-8');
+                    lapso.appendChild(document.createTextNode(object.lapso));
+                    tabla.appendChild(lapso);
+
+                    var organizacion_provinencia_label = document.createElement("div");
+                    organizacion_provinencia_label.setAttribute('class','col-md-4');
+                    organizacion_provinencia_label.setAttribute('style','color: #2b86bf;padding-bottom: 25px;border-bottom: solid #2b86bf;');
+                    organizacion_provinencia_label.appendChild(document.createTextNode("Organización de provinencia:"));
+                    tabla.appendChild(organizacion_provinencia_label);
+
+                    var organizacion_provinencia = document.createElement("div");
+                    organizacion_provinencia.setAttribute('class','col-md-8');
+                    organizacion_provinencia.setAttribute('style','padding-bottom: 25px;border-bottom: solid #2b86bf;');
+                    organizacion_provinencia.appendChild(document.createTextNode(object.organizacion_provinencia));
+                    tabla.appendChild(organizacion_provinencia);
+
+                    tabla.appendChild(document.createElement('hr'));
+                   // tabla.appendChild(tabla);
+                }
+            }
+        });
+    });
+</script>

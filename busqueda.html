@@ -88,5 +88,7 @@
 
     function usuarioDetalle(id) {
         console.log(id);
+        window.localStorage.setItem('idUsuario',id);
+        $('#content').load('usuarioDetalle.html');
     }
 </script>
