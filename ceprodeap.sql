@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 17-11-2016 a las 05:31:08
+-- Tiempo de generación: 11-01-2017 a las 04:50:43
 -- Versión del servidor: 10.1.16-MariaDB
 -- Versión de PHP: 5.6.24
 
@@ -126,19 +126,17 @@ INSERT INTO `eventoslistado` (`id`, `tipoEvento`, `colorEvento`, `nombreEvento`,
 CREATE TABLE `usuarios` (
   `id` int(11) NOT NULL,
   `cedula` int(11) DEFAULT NULL,
-  `primer_nombre` varchar(255) DEFAULT NULL,
-  `segundo_nombre` varchar(255) DEFAULT NULL,
-  `primer_apellido` varchar(255) DEFAULT NULL,
-  `segundo_apellido` varchar(255) DEFAULT NULL
+  `nombre` varchar(300) DEFAULT NULL,
+  `apellido` varchar(300) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Volcado de datos para la tabla `usuarios`
 --
 
-INSERT INTO `usuarios` (`id`, `cedula`, nombre, `segundo_nombre`, apellido, `segundo_apellido`) VALUES
-(1, 7990146, 'surelia', 'mercedes', 'salazar', 'marcano'),
-(2, 24995059, 'luis', 'enriquez', 'rodriguez', 'carvajal\r\n');
+INSERT INTO `usuarios` (`id`, `cedula`, `nombre`, `apellido`) VALUES
+(1, 7990146, 'surelia mercedes', 'salazar marcano'),
+(2, 24995059, 'luis enriquez', 'rodriguez carvajal');
 
 -- --------------------------------------------------------
 
@@ -151,6 +149,15 @@ CREATE TABLE `usuario_has_actividad` (
   `id_usuario` int(11) DEFAULT NULL,
   `id_actividad` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `usuario_has_actividad`
+--
+
+INSERT INTO `usuario_has_actividad` (`id`, `id_usuario`, `id_actividad`) VALUES
+(1, 1, 1),
+(2, 1, 2),
+(3, 2, 1);
 
 --
 -- Índices para tablas volcadas
@@ -200,7 +207,7 @@ ALTER TABLE `usuario_has_actividad`
 -- AUTO_INCREMENT de la tabla `actividades`
 --
 ALTER TABLE `actividades`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT de la tabla `eventodetalle`
 --
@@ -220,7 +227,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `usuario_has_actividad`
 --
 ALTER TABLE `usuario_has_actividad`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- Restricciones para tablas volcadas
 --
