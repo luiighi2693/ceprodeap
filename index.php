@@ -19,7 +19,7 @@
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar"
                     aria-expanded="false"><span class="sr-only">Toggle navigation</span><span
                     class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-            <a class="" onclick="$('#content').load('main.php');" href="#"><img src="images/logo_1.png" class="img-responsive" id="logo1" alt="logo"></a>
+            <a class="" onclick="$('#content').load('main.php');" href="#"><img src="img/logo_1.png" class="img-responsive" id="logo1" alt="logo"></a>
         </div>
         <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="nav navbar-nav">
@@ -89,12 +89,14 @@
     }
 
     function changeBackground() {
-        if(band==0){
-            document.getElementById("mainBackground").src="parallax02.jpg";
-            band=1;
-        }else{
-            document.getElementById("mainBackground").src="parallax01.jpg";
-            band=0;
+        if(document.getElementById("mainBackground")!=null){
+            if(band==0){
+                document.getElementById("mainBackground").src="parallax02.jpg";
+                band=1;
+            }else{
+                document.getElementById("mainBackground").src="parallax01.jpg";
+                band=0;
+            }
         }
     }
 </script>

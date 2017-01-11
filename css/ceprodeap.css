@@ -226,26 +226,26 @@ body.user-logged {
     border-bottom: 1px solid rgba(43, 134, 191, 0.24)
 }
 
-.title-calendar {
-    background-image: url(../images/backgrounds/calendar.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: #FFB800;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    min-height: 100px;
-    padding: 25px 0;
-    margin-bottom: 50px
-}
+/*.title-calendar {*/
+    /*background-image: url(../images/backgrounds/calendar.png);*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    /*background-size: cover;*/
+    /*background-color: #FFB800;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*min-height: 100px;*/
+    /*padding: 25px 0;*/
+    /*margin-bottom: 50px*/
+/*}*/
 
-.title-calendar span {
-    background: #F2762E;
-    padding: 4px 15px;
-    color: #fff!important;
-    font-weight: 300
-}
+/*.title-calendar span {*/
+    /*background: #F2762E;*/
+    /*padding: 4px 15px;*/
+    /*color: #fff!important;*/
+    /*font-weight: 300*/
+/*}*/
 
 .calendar-filter {
     margin-bottom: 50px
@@ -510,7 +510,7 @@ body.user-logged {
 }
 
 #rely_on_people .background {
-    background: url(../images/forcsfinal-black.png) repeat-x right;
+    background: url(../img/forcsfinal-black.png) repeat-x right;
     min-height: 600px
 }
 

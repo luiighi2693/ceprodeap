@@ -6,7 +6,7 @@
                 <div class="row"
                      style="position: absolute; top:10%; color: white; width: 100%; padding-right: 12%; padding-left: 10%; font-size: x-large;">
                     <div class="icon" style="text-align: center">
-                        <img src="images/logo.png" class="img-responsive mainIcon" alt="" style="display: initial;">
+                        <img src="img/logo.png" class="img-responsive mainIcon" alt="" style="display: initial;">
                     </div>
                     <div class="title hideclass" style="text-align: center;"><h2>EL ÉXITO EMPRESARIAL DE NUESTROS CLIENTES</h2></div>
                     <div class="description text-left description-with-icon hideclass" style="text-align: center;">
@@ -137,7 +137,7 @@
                             <div class="row text-center">
                                 <div class="col-md-3">
                                     <div style="min-height:100px">
-                                        <img src="images/home/schedule.png" alt="Register">
+                                        <img src="img/home/schedule.png" alt="Register">
                                     </div>
                                     <h3>Horarios</h3>
                                     <p><strong>Lunes - Viernes</strong><br>
@@ -146,7 +146,7 @@
                                 </div>
                                 <div class="col-md-3">
                                     <div style="min-height:100px">
-                                        <img src="images/home/wait_for_us.png" alt="Attend">
+                                        <img src="img/home/wait_for_us.png" alt="Attend">
                                     </div>
                                     <h3>Dirección</h3>
                                     <p>Calle Este 2 local 4 1er piso, Centro Comercial Narayola, Sector Morita I
@@ -154,7 +154,7 @@
                                 </div>
                                 <div class="col-md-3">
                                     <div style="min-height:100px">
-                                        <img src="images/home/register.png" alt="Schedule">
+                                        <img src="img/home/register.png" alt="Schedule">
                                     </div>
                                     <h3>Teléfonos</h3>
                                     <p>Sucursales:<br>
@@ -164,35 +164,13 @@
                                 </div>
                                 <div class="col-md-3">
                                     <div style="min-height:100px">
-                                        <img src="images/home/attend.png" alt="Waif for us">
+                                        <img src="img/home/attend.png" alt="Waif for us">
                                     </div>
                                     <h3>Correo</h3>
                                     <p>info@ceprodeap.co.ve</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="services">
-                            <div class="row text-center">
-                                <div class="col-md-6">
-                                    <div style="min-height:100px">
-                                        <img src="images/home/register.png" alt="Schedule">
-                                    </div>
-                                    <h3>Teléfonos</h3>
-                                    <p>Sucursales:<br>
-                                        Maracay: (58)0243-218.39.01<br>
-                                        Móvil: (58)0424-433.92.12</p>
-
-                                </div>
-                                <div class="col-md-6">
-                                    <div style="min-height:100px">
-                                        <img src="images/home/attend.png" alt="Waif for us">
-                                    </div>
-                                    <h3>Correo</h3>
-                                    <p>info@ceprodeap.co.ve</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </section>
         </main>
