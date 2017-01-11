@@ -36,8 +36,6 @@ function search(){
         }
 
     }
-
-    
     
     $result = $mysqli->query($query);
 

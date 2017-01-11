@@ -2,12 +2,7 @@
     <div id="primary" class="content-area">
         <main id="main" class="site-main">
             <div style="position:relative;">
-                <div style="    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0,10,20,0.8);"></div>
+                <div style="    position: absolute;top: 0;left: 0;right: 0;bottom: 0;background: rgba(0,10,20,0.8);"></div>
                 <div class="row"
                      style="position: absolute; top:10%; color: white; width: 100%; padding-right: 12%; padding-left: 10%; font-size: x-large;">
                     <div class="icon" style="text-align: center">
@@ -18,10 +13,6 @@
                         <p>"es nuestra única meta y objetivo"</p>
                     </div>
                 </div>
-<!--                <video autoplay id="videobg" loop width="100%">-->
-<!--                    <source src="GNS3_Banner.mp4" type="video/mp4">-->
-<!--                    Your browser does not support the video tag. I suggest you upgrade your browser.-->
-<!--                </video>-->
                 <img id="mainBackground" src="parallax01.jpg" style="width: 100%;">
             </div>
 
@@ -30,45 +21,45 @@
                     <h1 style="text-align: center;">Eventos</h1>
                 </section>
 
-                <!--                <center>-->
-                <!--                    <iframe src="/ceprodeap/event/gerenciales.com/index.php" width="100%"-->
-                <!--                            height="900px" class="lessHeight"></iframe>-->
-                <!--                </center>-->
                 <div id="carousel-container">
                     <div id="carousel-eventos" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel-eventos" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-eventos" data-slide-to="1"></li>
-                            <li data-target="#carousel-eventos" data-slide-to="2"></li>
-                            <li data-target="#carousel-eventos" data-slide-to="3"></li>
-                            <li data-target="#carousel-eventos" data-slide-to="4"></li>
-                            <li data-target="#carousel-eventos" data-slide-to="5"></li>
-                            <li data-target="#carousel-eventos" data-slide-to="6"></li>
-                        </ol>
+                        <?php
+                        $mysqli = new mysqli("localhost", "root", "", "ceprodeap");
 
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-                                <img src="img/eventos/3128_hiper_excel_sl2.jpg"/>
-                            </div>
-                            <div class="item ">
-                                <img src="img/eventos/3331_javascript_para_el_d_sl1.jpg"/>
-                            </div>
-                            <div class="item ">
-                                <img src="img/eventos/3340_calidad_empresarial_sl.jpg"/>
-                            </div>
-                            <div class="item ">
-                                <img src="img/eventos/3363_certificacin_especia_sl2.jpg"/>
-                            </div>
-                            <div class="item ">
-                                <img src="img/eventos/1234_gestin_de_crdito_y_c_sl.jpg"/>
-                            </div>
-                            <div class="item ">
-                                <img src="img/eventos/3370_reenfoque_de_las_ope_sl.jpg"/>
-                            </div>
-                            <div class="item ">
-                                <img src="img/eventos/1604_sipe_en_lnea_la_pl_sl.jpg"/>
-                            </div>
-                        </div>
+                        $query = 'SELECT * FROM eventodetalle';
+                        $result = $mysqli->query($query);
+
+                        printf("<ol class=\"carousel-indicators\">");
+                        for ($i = 0; $i < $result->num_rows; $i++) {
+                            printf("<li data-target=\"#carousel-eventos\" data-slide-to=\"$i\" ");
+                            if($i==0){
+                                printf("class=\"active\"");
+                            }
+                            printf("></li>");
+                        }
+                        printf("</ol>");
+
+                        printf("<div class=\"carousel-inner\" role=\"listbox\">");
+                        for ($i = 0; $i < $result->num_rows; $i++) {
+                            printf("<div class=\"item ");
+                            if($i==0){
+                                printf("active");
+                            }
+                            printf("\">");
+
+                            $row = $result->fetch_array(MYSQLI_ASSOC);
+                            printf("<img src=\"img/eventos/$row[imagenGrande]\"/>");
+
+                            printf("</div>");
+                        }
+                        printf(" </div>");
+
+                        /* free result set */
+                        mysqli_free_result($result);
+
+                        /* close connection */
+                        $mysqli->close();
+                        ?>
 
                         <a class="left carousel-control" href="#carousel-eventos" role="button" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
