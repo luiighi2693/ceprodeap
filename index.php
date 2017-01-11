@@ -74,13 +74,28 @@
 <script src='js/bootstrap.min.js'></script>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6eiGpyMn6DwgOn2IZFKlLMqVsF81rBvA"></script>
 <script>
+    var band = 0;
+
     $( document ).ready(function() {
         $('#content').load('main.php');
-    });
+
+        setInterval(
+            'changeBackground();',20000);
+        });
 
     function goToEvents() {
         window.localStorage.setItem("goto","event");
         $('#content').load('main.php');
+    }
+
+    function changeBackground() {
+        if(band==0){
+            document.getElementById("mainBackground").src="parallax02.jpg";
+            band=1;
+        }else{
+            document.getElementById("mainBackground").src="parallax01.jpg";
+            band=0;
+        }
     }
 </script>
 </body>

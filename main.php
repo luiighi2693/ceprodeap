@@ -11,17 +11,18 @@
                 <div class="row"
                      style="position: absolute; top:10%; color: white; width: 100%; padding-right: 12%; padding-left: 10%; font-size: x-large;">
                     <div class="icon" style="text-align: center">
-                        <img src="images/logo.png" class="img-responsive" alt="" style="display: initial;">
+                        <img src="images/logo.png" class="img-responsive mainIcon" alt="" style="display: initial;">
                     </div>
                     <div class="title hideclass" style="text-align: center;"><h2>EL ÉXITO EMPRESARIAL DE NUESTROS CLIENTES</h2></div>
                     <div class="description text-left description-with-icon hideclass" style="text-align: center;">
                         <p>"es nuestra única meta y objetivo"</p>
                     </div>
                 </div>
-                <video autoplay id="videobg" loop width="100%">
-                    <source src="GNS3_Banner.mp4" type="video/mp4">
-                    Your browser does not support the video tag. I suggest you upgrade your browser.
-                </video>
+<!--                <video autoplay id="videobg" loop width="100%">-->
+<!--                    <source src="GNS3_Banner.mp4" type="video/mp4">-->
+<!--                    Your browser does not support the video tag. I suggest you upgrade your browser.-->
+<!--                </video>-->
+                <img id="mainBackground" src="parallax01.jpg" style="width: 100%;">
             </div>
 
             <div id="events">

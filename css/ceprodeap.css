@@ -1760,6 +1760,10 @@ p.small {
     .lessHeight{
         height: 500px;;
     }
+
+    .mainIcon{
+        width: 50%;
+    }
 }
 
 .footer{
