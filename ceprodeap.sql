@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.1
+-- version 4.5.2
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 11-01-2017 a las 04:50:43
--- Versión del servidor: 10.1.16-MariaDB
--- Versión de PHP: 5.6.24
+-- Tiempo de generación: 11-01-2017 a las 20:09:35
+-- Versión del servidor: 5.7.9
+-- Versión de PHP: 5.6.16
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -20,14 +20,41 @@ SET time_zone = "+00:00";
 -- Base de datos: `ceprodeap`
 --
 
+DELIMITER $$
+--
+-- Procedimientos
+--
+DROP PROCEDURE IF EXISTS `first`$$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `first` ()  BEGIN
+	SELECT * FROM actividades;
+END$$
+
+DROP PROCEDURE IF EXISTS `searchUsersOrActivities`$$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `searchUsersOrActivities` (IN `dataIn` CHAR(50))  BEGIN
+	SET @dataIn  =CONCAT('%', dataIn,'%');
+
+	SELECT DISTINCT usuarios.* FROM usuarios 
+WHERE usuarios.nombre LIKE @dataIn OR 
+	usuarios.apellido LIKE @dataIn OR 
+    usuarios.cedula LIKE @dataIn 
+    UNION 
+		SELECT DISTINCT usuarios.* FROM usuarios, actividades, usuario_has_actividad
+            WHERE (usuario_has_actividad.id_usuario=usuarios.id AND
+                usuario_has_actividad.id_actividad=actividades.id) AND
+                actividades.numero_actividad LIKE @dataIn;
+END$$
+
+DELIMITER ;
+
 -- --------------------------------------------------------
 
 --
 -- Estructura de tabla para la tabla `actividades`
 --
 
-CREATE TABLE `actividades` (
-  `id` int(11) NOT NULL,
+DROP TABLE IF EXISTS `actividades`;
+CREATE TABLE IF NOT EXISTS `actividades` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `numero_actividad` int(11) DEFAULT NULL,
   `tipo_actividad` varchar(255) DEFAULT NULL,
   `nombre` varchar(500) DEFAULT NULL,
@@ -36,8 +63,10 @@ CREATE TABLE `actividades` (
   `centro_academico` varchar(255) DEFAULT NULL,
   `duracion` varchar(255) DEFAULT NULL,
   `lapso` varchar(255) DEFAULT NULL,
-  `organizacion_provinencia` varchar(500) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `organizacion_provinencia` varchar(500) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `actividades_id_uindex` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 
 --
 -- Volcado de datos para la tabla `actividades`
@@ -53,8 +82,9 @@ INSERT INTO `actividades` (`id`, `numero_actividad`, `tipo_actividad`, `nombre`,
 -- Estructura de tabla para la tabla `eventodetalle`
 --
 
-CREATE TABLE `eventodetalle` (
-  `id` int(11) NOT NULL,
+DROP TABLE IF EXISTS `eventodetalle`;
+CREATE TABLE IF NOT EXISTS `eventodetalle` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `titulo` varchar(300) DEFAULT NULL,
   `subtitulo` varchar(600) DEFAULT NULL,
   `imagenPequena` varchar(100) DEFAULT NULL,
@@ -83,8 +113,10 @@ CREATE TABLE `eventodetalle` (
   `precioCartaCompromisoNombre` varchar(100) DEFAULT NULL,
   `precioCartaCompromisoMonto` varchar(100) DEFAULT NULL,
   `precioCartaCompromisoDescripcion` varchar(300) DEFAULT NULL,
-  `incluyeEvento` varchar(500) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `incluyeEvento` varchar(500) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `eventoDetalle_id_uindex` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 
 --
 -- Volcado de datos para la tabla `eventodetalle`
@@ -100,14 +132,16 @@ INSERT INTO `eventodetalle` (`id`, `titulo`, `subtitulo`, `imagenPequena`, `imag
 -- Estructura de tabla para la tabla `eventoslistado`
 --
 
-CREATE TABLE `eventoslistado` (
-  `id` int(11) NOT NULL,
+DROP TABLE IF EXISTS `eventoslistado`;
+CREATE TABLE IF NOT EXISTS `eventoslistado` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `tipoEvento` varchar(100) NOT NULL,
   `colorEvento` varchar(100) DEFAULT NULL,
   `nombreEvento` varchar(500) NOT NULL,
   `fecha` varchar(100) NOT NULL,
-  `nombreEventoCorto` varchar(300) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `nombreEventoCorto` varchar(300) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 
 --
 -- Volcado de datos para la tabla `eventoslistado`
@@ -123,12 +157,15 @@ INSERT INTO `eventoslistado` (`id`, `tipoEvento`, `colorEvento`, `nombreEvento`,
 -- Estructura de tabla para la tabla `usuarios`
 --
 
-CREATE TABLE `usuarios` (
-  `id` int(11) NOT NULL,
+DROP TABLE IF EXISTS `usuarios`;
+CREATE TABLE IF NOT EXISTS `usuarios` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `cedula` int(11) DEFAULT NULL,
   `nombre` varchar(300) DEFAULT NULL,
-  `apellido` varchar(300) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `apellido` varchar(300) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `usuarios_id_uindex` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 
 --
 -- Volcado de datos para la tabla `usuarios`
@@ -144,11 +181,16 @@ INSERT INTO `usuarios` (`id`, `cedula`, `nombre`, `apellido`) VALUES
 -- Estructura de tabla para la tabla `usuario_has_actividad`
 --
 
-CREATE TABLE `usuario_has_actividad` (
-  `id` int(11) NOT NULL,
+DROP TABLE IF EXISTS `usuario_has_actividad`;
+CREATE TABLE IF NOT EXISTS `usuario_has_actividad` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `id_usuario` int(11) DEFAULT NULL,
-  `id_actividad` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `id_actividad` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `usuario_has_actividad_id_uindex` (`id`),
+  KEY `usuario_has_actividad_usuarios_id_fk` (`id_usuario`),
+  KEY `usuario_has_actividad_actividades_id_fk` (`id_actividad`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
 --
 -- Volcado de datos para la tabla `usuario_has_actividad`
@@ -159,75 +201,6 @@ INSERT INTO `usuario_has_actividad` (`id`, `id_usuario`, `id_actividad`) VALUES
 (2, 1, 2),
 (3, 2, 1);
 
---
--- Índices para tablas volcadas
---
-
---
--- Indices de la tabla `actividades`
---
-ALTER TABLE `actividades`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `actividades_id_uindex` (`id`);
-
---
--- Indices de la tabla `eventodetalle`
---
-ALTER TABLE `eventodetalle`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `eventoDetalle_id_uindex` (`id`);
-
---
--- Indices de la tabla `eventoslistado`
---
-ALTER TABLE `eventoslistado`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indices de la tabla `usuarios`
---
-ALTER TABLE `usuarios`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `usuarios_id_uindex` (`id`);
-
---
--- Indices de la tabla `usuario_has_actividad`
---
-ALTER TABLE `usuario_has_actividad`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `usuario_has_actividad_id_uindex` (`id`),
-  ADD KEY `usuario_has_actividad_usuarios_id_fk` (`id_usuario`),
-  ADD KEY `usuario_has_actividad_actividades_id_fk` (`id_actividad`);
-
---
--- AUTO_INCREMENT de las tablas volcadas
---
-
---
--- AUTO_INCREMENT de la tabla `actividades`
---
-ALTER TABLE `actividades`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
---
--- AUTO_INCREMENT de la tabla `eventodetalle`
---
-ALTER TABLE `eventodetalle`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
---
--- AUTO_INCREMENT de la tabla `eventoslistado`
---
-ALTER TABLE `eventoslistado`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
---
--- AUTO_INCREMENT de la tabla `usuarios`
---
-ALTER TABLE `usuarios`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
---
--- AUTO_INCREMENT de la tabla `usuario_has_actividad`
---
-ALTER TABLE `usuario_has_actividad`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- Restricciones para tablas volcadas
 --
