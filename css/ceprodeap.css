@@ -1785,3 +1785,7 @@ p.small {
     flex: 1 0 auto;
 }
 
+.tittleTextCenter{
+    text-align: center;
+    color: black;
+}

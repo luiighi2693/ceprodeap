@@ -25,7 +25,7 @@
             <ul class="nav navbar-nav">
                 <li><a onclick="$('#content').load('main.php');" href="#">Inicio</a></li>
                 <li><a onclick="$('#content').load('empresa.html');" href="#">La Empresa</a></li>
-                <li><a onclick="$('#content').load('servicios.html');" href="#">Servicios</a></li>
+                <li><a onclick="$('#content').load('servicios.php');" href="#">Servicios</a></li>
                 <li><a onclick="$('#content').load('clientes.html');" href="#">Clientes</a></li>
                 <li><a onclick="goToEvents();" href="#">Capacitaciones</a></li>
                 <li><a onclick="$('#content').load('busqueda.html');" href="#">Novedades</a></li>
@@ -52,7 +52,7 @@
                     <div class="col-md-7">
                         <a onclick="$('#content').load('main.php');" href="#">Inicio</a> |
                         <a onclick="$('#content').load('empresa.html');" href="#">La Empresa</a> |
-                        <a onclick="$('#content').load('servicios.html');" href="#">Servicios</a> |
+                        <a onclick="$('#content').load('servicios.php');" href="#">Servicios</a> |
                         <a onclick="$('#content').load('clientes.html');" href="#">Clientes</a> |
                         <a onclick="goToEvents();" href="#">Capacitaciones</a> |
                         <a  href="#">Novedades</a> |
