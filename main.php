@@ -122,15 +122,12 @@
 
             <section class="long-block"></section>
 
-            <div class="container-fluid" style="text-align: center">
-                <iframe width="100%" src="mapGoogle.html" height="500" scrolling="no"></iframe>
-            </div>
 
             <section id="training_services_steps" class="homepage-section">
                 <div class="container">
                     <h2 class="title text-center titlewithmargin">Contáctanos</h2>
                     <ul id="training_services_steps-tab" class="nav nav-tabs text-center" role="tablist">
-                        <li class="active"><a href="#training" role="tab" data-toggle="tab">información</a></li>
+                        <li class="active"><a href="#training" role="tab" data-toggle="tab">Información</a></li>
                     </ul>
                     <div id="training_services_steps-tab-content" class="tab-content">
                         <div class="tab-pane fade active in" id="training">
@@ -158,8 +155,8 @@
                                     </div>
                                     <h3>Teléfonos</h3>
                                     <p>Sucursales:<br>
-                                        Maracay: (58)0243-218.39.01<br>
-                                        Móvil: (58)0424-433.92.12</p>
+                                        Maracay: (+58) 0243-2183901<br>
+                                        Móvil: (+58) 0424-4339212</p>
 
                                 </div>
                                 <div class="col-md-3">
@@ -167,7 +164,7 @@
                                         <img src="img/home/attend.png" alt="Waif for us">
                                     </div>
                                     <h3>Correo</h3>
-                                    <p>info@ceprodeap.co.ve</p>
+                                    <p>info@ceprodeap.com</p>
                                 </div>
                             </div>
                         </div>

@@ -283,7 +283,7 @@ body.user-logged {
 }
 
 .long-block {
-    background: #0a559d;
+    background: #0c171e;
     color: #FFF;
     text-align: left;
     padding: 20px 0 30px
@@ -960,7 +960,7 @@ body.user-logged {
 }
 
 .navbar-itmc {
-    background-color: #2B86BF;
+    background-color: #0c171e;
     border-color: transparent;
     margin-bottom: 0;
     min-height: 50px;
@@ -1619,7 +1619,7 @@ body.user-logged {
 }
 
 p {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 p.small {
