@@ -29,13 +29,13 @@
 
     <div class="modal-body nav">
        <ul>
-         <li><a onclick="$('#content').load('main.php');" href="#">Inicio</a></li>
-         <li><a onclick="$('#content').load('empresa.html');" href="#">La Empresa</a></li>
-         <li><a onclick="$('#content').load('servicios.php');" href="#">Servicios</a></li>
-         <li><a onclick="$('#content').load('clientes.php');" href="#">Clientes</a></li>
+         <li><a onclick="loadModule('content', 'main.php');" href="#">Inicio</a></li>
+         <li><a onclick="loadModule('content', 'empresa.html');" href="#">La Empresa</a></li>
+         <li><a onclick="loadModule('content', 'servicios.php');" href="#">Servicios</a></li>
+         <li><a onclick="loadModule('content', 'clientes.php');" href="#">Clientes</a></li>
          <li><a onclick="goToEvents();" href="#">Capacitaciones</a></li>
-         <li><a onclick="$('#content').load('busqueda.html');" href="#">Búsqueda</a></li>
-         <li><a onclick="$('#content').load('contacto.html');" href="#">Contáctanos</a></li>
+         <li><a onclick="loadModule('content', 'busqueda.html');" href="#">Búsqueda</a></li>
+         <li><a onclick="loadModule('content', 'contacto.html');" href="#">Contáctanos</a></li>
         </ul>
       </div>
       <div class="modal-footer">
@@ -69,13 +69,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-7">
-                        <a onclick="$('#content').load('main.php');" href="#">Inicio</a> |
-                        <a onclick="$('#content').load('empresa.html');" href="#">La Empresa</a> |
-                        <a onclick="$('#content').load('servicios.php');" href="#">Servicios</a> |
-                        <a onclick="$('#content').load('clientes.php');" href="#">Clientes</a> |
-                        <a onclick="goToEvents();" href="#">Capacitaciones</a> |
-                        <a onclick="$('#content').load('busqueda.html');" href="#">Búsqueda</a> |
-                        <a onclick="$('#content').load('contacto.html');" href="#">Contáctanos</a>
+                        <li><a onclick="loadModule('content', 'main.php');" href="#">Inicio</a></li>
+                        <li><a onclick="loadModule('content', 'empresa.html');" href="#">La Empresa</a></li>
+                        <li><a onclick="loadModule('content', 'servicios.php');" href="#">Servicios</a></li>
+                        <li><a onclick="loadModule('content', 'clientes.php');" href="#">Clientes</a></li>
+                        <li><a onclick="goToEvents();" href="#">Capacitaciones</a></li>
+                        <li><a onclick="loadModule('content', 'busqueda.html');" href="#">Búsqueda</a></li>
+                        <li><a onclick="loadModule('content', 'contacto.html');" href="#">Contáctanos</a></li>
                     </div>
                     <div class="col-md-5 text-right">
                         <p class="small">Copyright &copy; 2017 </p>
@@ -95,7 +95,7 @@
 
 <script>
     var band = 0;
-
+    var modal = document.getElementById('myModal');
     $( document ).ready(function() {
         $('#content').load('main.php');
 
@@ -118,6 +118,11 @@
                 band=0;
             }
         }
+    }
+
+    function loadModule(container, module){
+        modal.style.display = "none";
+        $('#'+container).load(module);
     }
 </script>
 </body>
