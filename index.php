@@ -17,46 +17,46 @@
 <nav class="navbar navbar-default navbar-itmc navbar-itmc-big navbar-fixed-top" id="main-menu">
     <div class="container">
         <div class="navigation">
-  <button id="sized" class="menu">
-    <span></span>
-  </button>
-    <div id="myModal" class="modal">
-    <!-- Modal content -->
-      <div class="modal-content animated           zoomIn">
-      <div class="modal-header">
-         <span class="close">×</span>
-     </div>
+            <button id="sized" class="menu">
+                <span></span>
+            </button>
+            <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content animated zoomIn">
+                    <div class="modal-header">
+                        <span class="close">×</span>
+                    </div>
 
-    <div class="modal-body nav">
-       <ul>
-         <li><a onclick="loadModule('content', 'main.php');" href="#">Inicio</a></li>
-         <li><a onclick="loadModule('content', 'empresa.html');" href="#">La Empresa</a></li>
-         <li><a onclick="loadModule('content', 'servicios.php');" href="#">Servicios</a></li>
-         <li><a onclick="loadModule('content', 'clientes.php');" href="#">Clientes</a></li>
-         <li><a onclick="goToEvents();" href="#">Capacitaciones</a></li>
-         <li><a onclick="loadModule('content', 'busqueda.html');" href="#">Búsqueda</a></li>
-         <li><a onclick="loadModule('content', 'contacto.html');" href="#">Contáctanos</a></li>
-        </ul>
-      </div>
-      <div class="modal-footer">
-        <hr>
-        <p>
-        <strong>Aragua</strong>
-        <br> &#149;                   +58 0243 2183901 &#149;
-        <br>
-        <b>info@ceprodeap.com</b>
-        </p>
-      </div>
-    </div>
-  </div>
+                    <div class="modal-body nav">
+                        <ul>
+                            <li><a onclick="loadModule('content', 'main.php');" href="#">Inicio</a></li>
+                            <li><a onclick="loadModule('content', 'empresa.html');" href="#">La Empresa</a></li>
+                            <li><a onclick="loadModule('content', 'servicios.php');" href="#">Servicios</a></li>
+                            <li><a onclick="loadModule('content', 'clientes.php');" href="#">Clientes</a></li>
+                            <li><a onclick="goToEvents();" href="#">Capacitaciones</a></li>
+                            <li><a onclick="loadModule('content', 'busqueda.html');" href="#">Búsqueda</a></li>
+                            <li><a onclick="loadModule('content', 'contacto.html');" href="#">Contáctanos</a></li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <hr>
+                        <p>
+                            <strong>Aragua</strong>
+                            <br> &#149;                   +58 0243 2183901 &#149;
+                            <br>
+                            <b>info@ceprodeap.com</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
 
             <ul class="nav navbar-nav navbar-right list-inline">
                 <li><a href="https://twitter.com/ceprodeap" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
                 </li>
                 <li><a href="https://m.facebook.com/Ceprodeap/" target="_blank"><i
-                            class="fa fa-facebook-square fa-2x"></i></a></li>
+                                class="fa fa-facebook-square fa-2x"></i></a></li>
                 <li><a href="https://www.instagram.com/ceprodeapvenezuela/" target="_blank"><i
-                            class="fa fa-instagram fa-2x"></i></a></li>
+                                class="fa fa-instagram fa-2x"></i></a></li>
             </ul>
         </div>
     </div>
@@ -101,10 +101,11 @@
 
         setInterval(
             'changeBackground();',20000);
-        });
+    });
 
     function goToEvents() {
         window.localStorage.setItem("goto","event");
+        modal.style.display = "none";
         $('#content').load('main.php');
     }
 
