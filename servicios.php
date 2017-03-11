@@ -17,7 +17,7 @@
                         }
 
                         printf("<div class=\"col-sm-4 portfolio-item\">");
-                        printf("<a href=\"#portfolioModal".($i+1)."\" class=\"portfolio-link\" data-toggle=\"modal\">");
+                        printf("<a onclick=\"setModalData(".($i+1).");\" href=\"#\" class=\"portfolio-link\">");
                         printf("<h3 class=\"tittleTextCenter\">".$names[$i]."</h3>");
                         printf("<img src=\"img/portfolio/figure".($i+1).".jpg\" class=\"img-responsive\" alt=\"\">");
                         printf("</a></div>");
@@ -36,27 +36,13 @@
 </div>
 <br>
 
-<?php
-for($i=0; $i<10; $i++){
-    printf("<div class=\"portfolio-modal modal fade\" id=\"portfolioModal".($i+1)."\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">");
-    printf("<div class=\"modal-content\">");
-    printf("<div class=\"close-modal\" data-dismiss=\"modal\">");
-    printf("<div class=\"lr\">");
-    printf("<div class=\"rl\">");
-    printf("</div>");
-    printf("</div>");
-    printf("</div>");
-    printf("<div class=\"container\">");
-    printf("<div class=\"row\">");
-    printf("<div class=\"col-lg-8 col-lg-offset-2\">");
-    printf("<div class=\"modal-body\">");
-    printf("<img src=\"img/portfolio/figureText".($i+1).".jpg\" class=\"img-responsive\" alt=\"\">");
-    printf("<button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\"><i class=\"fa fa-times\"></i> Cerrar</button>");
-    printf("</div>");
-    printf("</div>");
-    printf("</div>");
-    printf("</div>");
-    printf("</div>");
-    printf("</div>");
-}
-?>
+<script>
+    function setModalData(i) {
+        $(".modal-header").css({ 'height': "10vh" });
+        $( "#modalBody" ).empty().append(
+            "<img src=\"img/portfolio/figureText"+i+".jpg\" class=\"img-responsive\" alt=\"\">" );
+        $( "#modalFooter" ).empty();
+
+        document.getElementById('myModal').style.display = "inline-table";
+    }
+</script>
