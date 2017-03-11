@@ -33,7 +33,7 @@
                 </div>
             </div>
 
-            <ul class="nav navbar-nav navbar-right list-inline">
+            <ul class="nav navbar-nav navbar-right list-inline" style="float: right;display: flex;">
                 <li><a href="https://twitter.com/ceprodeap" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
                 </li>
                 <li><a href="https://m.facebook.com/Ceprodeap/" target="_blank"><i
