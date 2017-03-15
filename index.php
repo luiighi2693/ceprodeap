@@ -3,12 +3,14 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
 <head>
     <meta charset="UTF-8">
-    <title>CEPRODEAP</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CEPRODEAP VENEZUELA C.A.</title>
+    <meta name="Consultoria Maracay Turmero Aragua Venezuela Consultores " content="CeprodeapVenezuela">
+    <meta name="Ceprodeap Venezuela" content="ceprodeap venezuela C.A.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" property='stylesheet'/>
     <link href="css/ceprodeap.css" rel="stylesheet" type="text/css" property='stylesheet'/>
     <link href="css/gear.css" rel="stylesheet" type="text/css">
-
+    <link rel="icon" type="image/png" href="img/logo.png" />
     <link href="css/animate.min.css" rel="stylesheet" type="text/css" property='stylesheet'/>
     <link href="css/font-awesome.min.css" rel="stylesheet" property='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
@@ -44,7 +46,7 @@
         </div>
     </div>
 </nav>
-<div id="content" style="margin-bottom: 200px;"></div>
+<div id="content" style="margin-bottom: 470px;"></div>
 
 <div id="footer" class="footer">
     <footer id="colophon" class="site-footer">
